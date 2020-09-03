@@ -21,7 +21,7 @@ export default function Home() {
             working with the University to replace old fluorescent light bulbs
             on campus with LED’s to heading the installation of solar panels on
             campus buildings, the Energy Team constantly searches for the most
-            efficient renewable energy solutions.
+            efficient renewable energy solutions. test
           </div>
         </div>
 
