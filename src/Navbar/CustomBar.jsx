@@ -11,6 +11,7 @@ import FormControlLabel from "@material-ui/core/FormControlLabel";
 import FormGroup from "@material-ui/core/FormGroup";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
+import { Navbar, Nav, NavItem, NavDropdown, Form, FormControl, Button} from 'react-bootstrap';
 import { useHistory } from "react-router-dom";
 import "./custom-bar.scss";
 
@@ -47,29 +48,57 @@ const Custombar = () => {
   };
 
   return (
-    <div className={classes.root}>
-      <AppBar position="static">
-        <Toolbar>
-          <Typography
-            variant="h6"
-            className={classes.title}
-            onClick={() => history.push("")}
-          >
+    <div className="container">
+      <Navbar bg="themed" expand="lg">
+        <Navbar.Brand href="#home" onClick={() => history.push("")}>
+          <img 
+            src={require("../../src/static/images/heliosLogo.jpg")}
+            width="30"
+            height="30"
+            className="d-inline-block align-top" 
+            alt=""/>
             Helios
-          </Typography>
-          {/* <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-            <MenuItem onClick={handleClose}>Profile</MenuItem>
-          </IconButton> */}
-          <div className="menu-items">
-            <MenuItem onClick={() => history.push("/about")}>About</MenuItem>
-            <MenuItem onClick={() => history.push("/project")}>
-              Project
-            </MenuItem>
-            <MenuItem onClick={() => history.push("/member")}>Member</MenuItem>
-          </div>
-        </Toolbar>
-      </AppBar>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link onClick={() => history.push("/about")}>About</Nav.Link>
+            <Nav.Link onClick={() => history.push("/project")}>Projects</Nav.Link>
+            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     </div>
+
+    // <div className={classes.root}>
+    //   <AppBar position="static">
+    //     <Toolbar>
+    //       <Typography
+    //         variant="h6"
+    //         className={classes.title}
+    //         onClick={() => history.push("")}
+    //       >
+    //         Helios
+    //       </Typography>
+    //       {/* <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+    //         <MenuItem onClick={handleClose}>Profile</MenuItem>
+    //       </IconButton> */}
+    //       <div className="menu-items">
+    //         <MenuItem onClick={() => history.push("/about")}>About</MenuItem>
+    //         <MenuItem onClick={() => history.push("/project")}>
+    //           Project
+    //         </MenuItem>
+    //         <MenuItem onClick={() => history.push("/member")}>Member</MenuItem>
+    //       </div>
+    //     </Toolbar>
+    //   </AppBar>
+    // </div>
   );
 };
 
