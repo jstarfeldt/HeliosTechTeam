@@ -1,38 +1,85 @@
 import React from "react";
 import Layout from "../../Layout";
 import "./home.scss";
+import Carousel from 'react-bootstrap/Carousel'
+import Image from 'react-bootstrap/Image'
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
+import Button from 'react-bootstrap/Button'
+import { useHistory } from "react-router-dom";
 
 export default function Home() {
-  console.log("hello!");
+  let history = useHistory();
+
   return (
     <Layout>
       <div className="container">
 
-        <div className="jumbotron p-3 p-md-5 text-white rounded bg-dark">
-          <div className="col-md-6 px-0" style={{marginRight: '50%'}} >
-            <h1 className="display-4 font-italic">Recent project Title</h1>
+        <Jumbotron>
+          <div className="col-md-6 px-0" style={{marginRight: 'auto', marginBottom: 'auto'}} >
+            <h1 className="display-4 font-italic">Helios</h1>
             <p className="lead my-3">Mission statement placeholder</p>
           </div>
-        </div>
-        <div className="introduction">
-          <div className="center">
-            <div className="title">Introduction</div>
-            <div className="details">
-              On the UW campus, dated technology and overuse can rapidly increase
-              bills and cause irreversible harm to our environment. The Helios Team
-              identifies where UW suffers from inefficiencies and works toward 
-              creating practical,
-              inexpensive and impactful renewable solutions. From
-              working with the University, to replacing old fluorescent light bulbs
-              on campus with LED’s, to heading the installation of solar panels on
-              campus buildings, the Helios Team constantly searches for the most
-              efficient renewable energy solutions.
-            </div>
-          </div>
+        </Jumbotron>
 
-          <div className="right">
+
+        <hr class="featurette-divider"/>
+
+        <div class="row featurette" onClick={() => history.push("/project")}>
+          <div class="col-md-7">
+            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-md-5">
+            <Image className="featurette-image mx-auto" />
           </div>
         </div>
+
+        <hr class="featurette-divider"/>
+
+        <div class="row featurette" onClick={() => history.push("/project")}>
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <Image className="featurette-image mx-auto" />
+          </div>
+        </div>
+
+        <hr class="featurette-divider"/>
+
+        <div class="row featurette" onClick={() => history.push("/project")}>
+          <div class="col-md-7">
+            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          </div>
+          <div class="col-md-5">
+            <Image className="featurette-image mx-auto" />
+          </div>
+        </div>
+
+        <hr class="featurette-divider"/>
+        {/* <Row>
+          <Col>
+            <h2>Project 1</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><Button variant="secondary">View Details</Button>{' '}</p>
+          </Col>
+          <Col>
+            <h2>Project 2</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><Button variant="secondary">View Details</Button>{' '}</p>
+          </Col>
+          <Col>
+            <h2>Project 3</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><Button variant="secondary">View Details</Button>{' '}</p>
+          </Col>
+        </Row> */}
+
+
       </div>
     </Layout>
   );
