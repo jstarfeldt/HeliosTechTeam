@@ -32,7 +32,7 @@ export default function Home() {
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </div>
           <div class="col-md-5">
-            <Image className="featurette-image mx-auto" />
+            <Image className="featurette-image mx-auto" src={require("../../static/images/GordonsProject.jpg")} rounded/>
           </div>
         </div>
 
