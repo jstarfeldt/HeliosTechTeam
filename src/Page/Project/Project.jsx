@@ -17,13 +17,15 @@ const Project = () => {
   return (
     <div>
       <Layout>
+      <div className="container">
         <Paper className={classes.root}>
           <Typography variant="h5" component="h3">
-            Title of the project
+            Helios Projects
           </Typography>
-          <Typography component="p">Explanation of the project.</Typography>
+          <Typography component="p">Helping our community with every watt</Typography>
         </Paper>
         <ProjectList />
+        </div>
       </Layout>
 
     </div>
