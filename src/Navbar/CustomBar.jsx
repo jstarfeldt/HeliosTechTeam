@@ -70,7 +70,7 @@ const Custombar = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </div>
+    </div> 
   );
 };
 
