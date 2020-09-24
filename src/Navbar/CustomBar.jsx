@@ -52,7 +52,7 @@ const Custombar = () => {
       <Navbar className="homeBar" bg="themed" expand="lg">
         <Navbar.Brand href="#home" onClick={() => history.push("")}>
           <img 
-            src={require("../../src/static/images/HeliosLogo.png")}
+            src={require("../../src/static/images/HeliosFull.png")}
             height="30"
             className="d-inline-block align-top" 
             alt=""/>
@@ -70,7 +70,7 @@ const Custombar = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </div>
+    </div> 
   );
 };
 

@@ -44,7 +44,6 @@ export default function Member() {
 
         </Col>
       </Row>
-
     </Container>
   </Layout>
     );
