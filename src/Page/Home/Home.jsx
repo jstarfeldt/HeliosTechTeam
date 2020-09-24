@@ -16,10 +16,11 @@ export default function Home() {
     <Layout>
       <div className="container">
 
-        <Jumbotron>
-          <div className="col-md-6 px-0" style={{marginRight: 'auto', marginBottom: 'auto'}} >
+        <Jumbotron style={{marginRight: 'auto', marginTop: '100px'}}>
+          <div className="col-md-6 px-0" style={{marginRight: 'auto', marginBottom: '450px'}} >
             <h1 className="display-4 font-italic">Helios</h1>
-            <p className="lead my-3">Mission statement placeholder</p>
+            <p className="lead my-3">To work towards a more sustainable future, Helios will work towards making the UW-Madison campus more renewable, one building at a time.
+To spread awareness for sustainability, and particularly renewable energy projects, throughout the campus, and the community of Madison.</p>
           </div>
         </Jumbotron>
 
@@ -32,7 +33,7 @@ export default function Home() {
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </div>
           <div class="col-md-5">
-            <Image className="featurette-image mx-auto" src={require("../../static/images/GordonsProject.jpg")} rounded/>
+            <Image className="featurette-image mx-auto" src={require("../../static/images/GordonsProject.jpg")} fluid rounded/>
           </div>
         </div>
 
@@ -44,7 +45,7 @@ export default function Home() {
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </div>
           <div class="col-md-5 order-md-1">
-            <Image className="featurette-image mx-auto" />
+          <Image className="featurette-image mx-auto" src={require("../../static/images/ArbProj.png")} fluid rounded/>
           </div>
         </div>
 
