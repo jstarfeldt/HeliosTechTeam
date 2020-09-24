@@ -8,17 +8,15 @@ import Member from "./Page/Member/Member";
 
 function App() {
   return (
-    <div>
-      <BrowserRouter>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/project" component={Project} />
-          <Route path="/projects/:id" component={ProjectDetails} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/member" component={Member} />
-        </Switch>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/project" component={Project} />
+        <Route path="/projects/:id" component={ProjectDetails} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/member" component={Member} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 
