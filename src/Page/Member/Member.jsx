@@ -5,45 +5,46 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
+import Tabs from 'react-bootstrap/Tabs'
+import Tab from 'react-bootstrap/Tab'
+
 
 export default function Member() {
   return (
   <Layout>
     <Container className="MemberContainer">
+	 
+	 <Tabs defaultActiveKey="Tech" id="uncontrolled-tab-example">
 
-      <Row>
-        <h1 className="memberStatement">
-          Helios is always looking for passionate, enthusiastic members.
-        </h1>
-      </Row>
-      <Row>
-        <Col>
-          <Container className="meetingTimes">
-            <h2>
-              Meeting Times
-            </h2>
+	 <Tab eventKey="Tech" title="Tech">
+	 <h1 className="TechPage">
+		This is where we will put the tech memebers!
+     </h1>
+	 </Tab>
 
-            <h4>
-              General: Wednesday 5:30-6:30
-            </h4>
-            <h4>
-              Tech Team: Wednesday 5:30-6:30
-            </h4>
-            <h4>
-              Energy Team: Wednesday 5:30-6:30
-            </h4>
-            <h4>
-              Business Team: Wednesday 5:30-6:30
-            </h4>
-            <h4>
-              Engineering Team: Wednesday 5:30-6:30
-            </h4>
-          </Container>
-        </Col>
-        <Col>
 
-        </Col>
-      </Row>
+	 <Tab eventKey="Energy" title="Energy">	
+	 <h1 className="EnergyPage">
+		This is where we will put the Energy memebers!
+     </h1>
+	 </Tab>
+
+
+	 <Tab eventKey="Business" title="Business">
+	 <h1 className="BusinessPage">
+		This is where we will put the Business memebers!
+     </h1>
+	 </Tab>
+
+
+	 <Tab eventKey="Engineering" title="Engineering">
+	 <h1 className="EngineeringPage">
+		This is where we will put the Engineering memebers!
+     </h1>
+	 </Tab>
+
+
+	 </Tabs>
     </Container>
   </Layout>
     );
