@@ -24,7 +24,7 @@ export default function Member() {
             </h2>
 
             <h4>
-              General: Wednesday 5:30-6:30
+              General: Wednesday test
             </h4>
             <h4>
               Tech Team: Wednesday 5:30-6:30
