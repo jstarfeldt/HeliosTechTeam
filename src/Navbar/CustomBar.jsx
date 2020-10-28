@@ -48,7 +48,6 @@ const Custombar = () => {
   };
 
   return (
-    <div className="container">
       <Navbar className="homeBar" bg="themed" expand="lg">
         <Navbar.Brand href="#home" onClick={() => history.push("")}>
           <img 
@@ -64,13 +63,12 @@ const Custombar = () => {
             <Nav.Link onClick={() => history.push("/project")}>Projects</Nav.Link>
             <NavDropdown title="Information" id="basic-nav-dropdown">
               <NavDropdown.Item onClick={() => history.push("/member")}>Members</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Research</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => history.push("/Research")}>Research</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Energy Tips</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-    </div> 
   );
 };
 
