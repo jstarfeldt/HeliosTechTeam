@@ -5,7 +5,7 @@ const solarData = [
     id: 0,
     title: "This is Project :) (smile)",
     date: new Moment("2019-10-31"),
-    imgUrl: "src\static\images\sun.jpg",
+    imgUrl: "sun",
     summary:
       "This is a test summary for the Project.",
     body:

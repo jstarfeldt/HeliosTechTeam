@@ -28,7 +28,7 @@ const ProjectList = () => {
           textDecoration="none"
           className="item"
         >
-          <Card title={d.title} summary={d.summary} id={d.id} date={d.date} />
+          <Card project={d} />
         </Link>
       ))}
     </div>
