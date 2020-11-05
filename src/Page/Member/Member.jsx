@@ -24,9 +24,14 @@ export default function Member() {
      </h1>
 	 <Paper>
           <Typography variant="h5" component="h3">
-            Tech Team Contact
+            Tech Team Lead
           </Typography>
-          <Typography component="p">Chris Gilbertson</Typography>
+           <Typography variant="subtitle1">Chris Gilbertson</Typography>
+          <div class="testBox">
+            <Typography variant="body2"> Year:  </Typography>
+            <Typography variant="body2"> Major: </Typography>
+            <Typography variant="body2"> Email: </Typography>
+          </div>
         </Paper>
 	 </Tab>
 
@@ -35,10 +40,17 @@ export default function Member() {
 	 <h1 className="EnergyPage">
 		This is where we will put the Energy memebers!
      </h1>
+     <Paper>
 	 <Typography variant="h5" component="h3">
-            Energy Team Contact
+            Energy Team Lead
           </Typography>
-          <Typography component="p">ENERGY LEAD NAME</Typography>
+          <Typography variant="subtitle1">Jessie Steckling</Typography>
+          <div class="testBox">
+            <Typography variant="body2"> Year:   </Typography>
+            <Typography variant="body2"> Major:  </Typography>
+            <Typography variant="body2"> Email:  </Typography>
+          </div>
+          </Paper>
 	 </Tab>
 
 
@@ -46,10 +58,17 @@ export default function Member() {
 	 <h1 className="BusinessPage">
 		This is where we will put the Business memebers!
      </h1>
+     <Paper>
 	 <Typography variant="h5" component="h3">
-            Business Team Contact
+            Business Team Lead
           </Typography>
-          <Typography component="p">BUSINESS LEAD NAME</Typography>
+          <Typography variant="subtitle1">Tyler Joseph Graczyk</Typography>
+          <div class="testBox">
+            <Typography variant="body2">Year:</Typography>
+            <Typography variant="body2">Major:</Typography>
+            <Typography variant="body2">Email: </Typography>
+          </div>
+          </Paper>
 	 </Tab>
 
 
@@ -57,10 +76,17 @@ export default function Member() {
 	 <h1 className="EngineeringPage">
 		This is where we will put the Engineering memebers!
      </h1>
+     <Paper>
 	 <Typography variant="h5" component="h3">
-            Engineering Team Contact
-          </Typography>
-          <Typography component="p">Engineering Lead Name</Typography>
+            Engineering Team Lead
+          </Typography >
+          <Typography variant="subtitle1">Simon Brooks</Typography>
+          <div class="testBox">
+            <Typography variant="body2">Year:</Typography>
+            <Typography variant="body2">Major:</Typography>
+            <Typography variant="body2">Email: </Typography>
+          </div>
+        </Paper>
 	 </Tab>
 
 
