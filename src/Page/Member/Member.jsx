@@ -16,7 +16,7 @@ export default function Member() {
   <Layout>
     <Container className="MemberContainer">
 	 
-	 <Tabs defaultActiveKey="Tech" id="uncontrolled-tab-example">
+	 <Tabs defaultActiveKey="Tech" id="uncontrolled-tab-example" className ="team-tabs">
 
 	 <Tab eventKey="Tech" title="Tech">
 	 <h1 className="TechPage">
@@ -31,11 +31,11 @@ export default function Member() {
 	 </Tab>
 
 
-	 <Tab eventKey="Energy" title="Energy">	
-	 <h1 className="EnergyPage">
+	  <Tab eventKey="Energy" title="Energy">	
+	    <h1 className="EnergyPage">
 		This is where we will put the Energy memebers!
      </h1>
-	 <Typography variant="h5" component="h3">
+	  <Typography variant="h5" component="h3">
             Energy Team Contact
           </Typography>
           <Typography component="p">ENERGY LEAD NAME</Typography>
