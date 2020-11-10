@@ -1,74 +1,74 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import clsx from "clsx";
-import Card from "@material-ui/core/Card";
-import CardHeader from "@material-ui/core/CardHeader";
-import CardMedia from "@material-ui/core/CardMedia";
-import CardContent from "@material-ui/core/CardContent";
-import CardActions from "@material-ui/core/CardActions";
-import Collapse from "@material-ui/core/Collapse";
-import Avatar from "@material-ui/core/Avatar";
-import IconButton from "@material-ui/core/IconButton";
-import Typography from "@material-ui/core/Typography";
-import { red, grey } from "@material-ui/core/colors";
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import ShareIcon from "@material-ui/icons/Share";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import MoreVertIcon from "@material-ui/icons/MoreVert";
-import { Box, Grid } from "@material-ui/core";
+import { makeStyles } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
+import ButtonBase from '@material-ui/core/ButtonBase';
+import { Grid } from "@material-ui/core";
 
 const useStyles = makeStyles(theme => ({
-  card: {
-    maxWidth: 345
+  root: {
+    flex: 1,
   },
-  media: {
-    height: 0,
-    paddingTop: "56.25%" // 16:9
+  paper: {
+    padding: theme.spacing(2),
+    minWidth: 530,
+    maxWidth: 530,
   },
-  expand: {
-    transform: "rotate(0deg)",
-    marginLeft: "auto",
-    transition: theme.transitions.create("transform", {
-      duration: theme.transitions.duration.shortest
-    })
+  image: {
+    width: 256,
+    height: 256,
   },
-  expandOpen: {
-    transform: "rotate(180deg)"
+  img: {
+    margin: 'auto',
+    display: 'auto',
+    maxWidth: '100%',
+    maxHeight: '100%',
   },
-  avatar: {
-    backgroundColor: grey
-  }
 }));
 
 const CustomCard = props => {
   const classes = useStyles();
-  const [expanded, setExpanded] = React.useState(false);
+  // const [expanded, setExpanded] = React.useState(false);
 
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
-  };
+  // const handleExpandClick = () => {
+  //   setExpanded(!expanded);
+  // };
 
   const project = props.project
 
-  console.log(project.imgUrl)
+  // console.log(project.imgUrl)
 
   let image = project.imgUrl == "" ? 'heliosIcon' : project.imgUrl;
 
+
   return (
-    <Grid>
-      <Box>
-        <img src={require('../static/images/' + image + '.jpg')} />
-      </Box>
-      <Box>
-        <Box>
-          {project.title}
-        </Box>
-        <Box>
-          {project.summary}
-        </Box>
-      </Box>
-    </Grid>
-  );
+    <div className={classes.root}>
+      <Paper className={classes.paper}>
+        <Grid container spacing={2}>
+          <Grid item>
+            <ButtonBase className={classes.image}>
+              <img className={classes.img} alt="complex" src={require('../static/images/' + image + '.jpg')} />
+            </ButtonBase>
+          </Grid>
+          <Grid item xs={12} sm container>
+            <Grid item xs container direction="column" spacing={1}>
+              <Grid item xs>
+                <Typography gutterBottom variant="h6">
+                  {project.title}
+                </Typography>
+                <Typography variant="body2" gutterBottom>
+                  {project.summary}
+                </Typography>
+                <Typography variant="body2" color="textSecondary">
+                  Maybe a date here or something
+                </Typography>
+              </Grid>
+            </Grid>
+          </Grid>
+        </Grid>
+      </Paper>
+    </div>
+  )
 };
 
 export default CustomCard;
