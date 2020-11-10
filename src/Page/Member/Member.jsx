@@ -26,34 +26,34 @@ export default function Member() {
 
 	 <Tab eventKey="Energy" title="Energy">
 	 <h1 className="TechPage">
-		This is where we will put the tech memebers!
+		This is where we will put the Energy memebers!
      </h1>
       <h2 variant="h5" component="h3">
-        Tech Team Contact
+      Energy Team Contact
       </h2>
-      <h1 component="p">Chris Gilbertson</h1>
+      <h1 component="p">Lead</h1>
 	 </Tab>
 
 
 	 <Tab eventKey="Business" title="Business">
 	 <h1 className="TechPage">
-		This is where we will put the tech memebers!
+		This is where we will put the Business memebers!
      </h1>
       <h2 variant="h5" component="h3">
-        Tech Team Contact
+      Business Team Contact
       </h2>
-      <h1 component="p">Chris Gilbertson</h1>
+      <h1 component="p">Lead</h1>
 	 </Tab>
 
 
 	 <Tab eventKey="Engineering" title="Engineering">
 	 <h1 className="TechPage">
-		This is where we will put the tech memebers!
+		This is where we will put the Engineering memebers!
      </h1>
       <h2 variant="h5" component="h3">
-        Tech Team Contact
+      Engineering Team Contact
       </h2>
-      <h1 component="p">Chris Gilbertson</h1>
+      <h1 component="p">Lead</h1>
 	 </Tab>
 
 
