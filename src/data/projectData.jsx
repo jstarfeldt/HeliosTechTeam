@@ -4,7 +4,7 @@ const solarData = [
   {
     id: 0,
     title: "This is Project :) (smile)",
-    date: new Moment("2019-10-31"),
+    date: new Moment("2019-10-30"),
     imgUrl: "sun",
     summary:
       "This is a test summary for the Project.",
@@ -30,9 +30,9 @@ const solarData = [
 
   {
     id: 1,
-    title: "title2",
-    date: new Moment("2019-10-31"),
-    imgUrl: "",
+    title: "Garbage for Dinner",
+    date: new Moment("2019-11-27"),
+    imgUrl: "helios1",
     summary:
       "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr",
     body:
@@ -41,9 +41,9 @@ const solarData = [
 
   {
     id: 2,
-    title: "title3",
-    date: new Moment("2019-10-31"),
-    imgUrl: "",
+    title: "Poop",
+    date: new Moment("2019-08-31"),
+    imgUrl: "paella",
     summary:
       "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr",
     body:
@@ -52,7 +52,7 @@ const solarData = [
 
   {
     id: 3,
-    title: "title4",
+    title: "Pooper",
     date: new Moment("2019-10-31"),
     imgUrl: "",
     summary:
@@ -63,7 +63,7 @@ const solarData = [
 
   {
     id: 4,
-    title: "title5",
+    title: "poopest",
     date: new Moment("2019-10-31"),
     imgUrl: "",
     summary:
@@ -74,7 +74,7 @@ const solarData = [
 
   {
     id: 5,
-    title: "title6",
+    title: "enpoop",
     date: new Moment("2019-10-31"),
     imgUrl: "",
     summary:
