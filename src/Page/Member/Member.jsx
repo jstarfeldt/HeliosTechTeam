@@ -15,8 +15,6 @@ export default function Member() {
 	 
 	 <Tabs defaultActiveKey="Tech" id="uncontrolled-tab-example" className ="team-tabs">
 	 <Tab eventKey="Tech" title="Tech" style={{backgroundColor: 'white'}}>
- 
-    <Col>
       <Row>
         <h1 className="m-auto">
           Technology Team
@@ -36,7 +34,6 @@ export default function Member() {
             <h6 component="p"> Major: </h6>
             <h6 component="p"> Email: </h6>
           </div>
-    </Col>
 	 </Tab>
 
 
@@ -63,40 +60,48 @@ export default function Member() {
 	 </Tab>
 
 
-	 <Tab eventKey="Business" title="Business">
-	 <h1 className="TechPage">
-		This is where we will put the Business memebers!
-     </h1>
-     <Row>
-        <h2 variant="h5" component="h3">
-          Tech Team Contact
-        </h2>
+   <Tab eventKey="Business" title="Business" style={{backgroundColor: 'white'}}>
+   <Row>
+        <h1 className="m-auto">
+          Business Team
+        </h1>
       </Row>
-        <h1 component="p">Tyler Joseph Graczyk</h1>
+      <Row>
+        <Image className="m-auto" fluid src={require("../../static/images/techteam.jpg")}/> 
+      </Row>
+      <Row>
+        <h4 variant="h5" component="h3">
+          Business Team Contact
+        </h4>
+      </Row>
+        <h5 component="p">Tyler Joseph Graczyk</h5>
           <div class="testBox">
-            <h1 component="p"> Year:  </h1>
-            <h1 component="p"> Major: </h1>
-            <h1 component="p"> Email: </h1>
+            <h6 component="p"> Year:  </h6>
+            <h6 component="p"> Major: </h6>
+            <h6 component="p"> Email: </h6>
           </div>
 	 </Tab>
 
-
-	 <Tab eventKey="Engineering" title="Engineering">
-	 <h1 className="TechPage">
-		This is where we will put the Engineering memebers!
-     </h1>
-     <Row>
-        <h2 variant="h5" component="h3">
-          Tech Team Contact
-        </h2>
+   <Tab eventKey="Engineering" title="Engineering" style={{backgroundColor: 'white'}}>
+   <Row>
+        <h1 className="m-auto">
+          Engineering Team
+        </h1>
       </Row>
-        <h1 component="p">Simon Brooks</h1>
+      <Row>
+        <Image className="m-auto" fluid src={require("../../static/images/techteam.jpg")}/> 
+      </Row>
+      <Row>
+        <h4 variant="h5" component="h3">
+          Engineering Team Contact
+        </h4>
+      </Row>
+        <h5 component="p">Simon Brooks</h5>
           <div class="testBox">
-            <h1 component="p"> Year:  </h1>
-            <h1 component="p"> Major: </h1>
-            <h1 component="p"> Email: </h1>
+            <h6 component="p"> Year:  </h6>
+            <h6 component="p"> Major: </h6>
+            <h6 component="p"> Email: </h6>
           </div>
-
 	 </Tab>
 
 
