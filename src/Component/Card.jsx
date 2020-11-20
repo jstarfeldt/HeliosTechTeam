@@ -15,6 +15,7 @@ import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShareIcon from "@material-ui/icons/Share";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
+import { Box, Grid } from "@material-ui/core";
 
 const useStyles = makeStyles(theme => ({
   card: {
@@ -47,56 +48,26 @@ const CustomCard = props => {
     setExpanded(!expanded);
   };
 
+  const project = props.project
+
+  console.log(project.imgUrl)
+
+  let image = project.imgUrl == "" ? 'heliosIcon' : project.imgUrl;
+
   return (
-    <Card className={classes.card}>
-      <CardHeader
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
-        title={props.title}
-      />
-      <CardMedia
-        className={classes.media}
-        image={require("../static/images/heliosIcon.jpg")}
-        title="Paella dish"
-      />
-      <CardContent>
-        <Typography variant="body2" color="textSecondary" component="p">
-          {props.summary}
-        </Typography>
-      </CardContent>
-      <CardActions disableSpacing>
-      </CardActions>
-      <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>
-          <Typography paragraph>Method:</Typography>
-          <Typography paragraph>
-            We must steal the means of production and give them back to the people
-          </Typography>
-          <Typography paragraph>
-            sample parapgraph for project description
-            sample parapgraph for project description
-            sample parapgraph for project description
-            sample parapgraph for project description
-            sample parapgraph for project description
-          </Typography>
-          <Typography paragraph>
-            sample parapgraph for project description
-            sample parapgraph for project description
-            sample parapgraph for project description
-            sample parapgraph for project description
-            sample parapgraph for project description
-          </Typography>
-          <Typography>
-            sample parapgraph for project description
-            sample parapgraph for project description
-            sample parapgraph for project description
-          </Typography>
-        </CardContent>
-      </Collapse>
-    </Card>
+    <Grid>
+      <Box>
+        <img src={require('../static/images/' + image + '.jpg')} />
+      </Box>
+      <Box>
+        <Box>
+          {project.title}
+        </Box>
+        <Box>
+          {project.summary}
+        </Box>
+      </Box>
+    </Grid>
   );
 };
 

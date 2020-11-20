@@ -24,6 +24,44 @@ To spread awareness for sustainability, and particularly renewable energy projec
           </div>
         </Jumbotron>
 
+    <Row>
+      <Col>
+      <Image className="d-block mx-auto" style={{height: '140px', width: '140px'}} src={require("../../static/images/portrait2.png")} roundedCircle/>
+        <h5 style={{textAlign: 'center'}}>Chris Gilbertson</h5>
+        <h6 style={{textAlign: 'center'}}>Tech Team </h6>
+        <h6 style={{textAlign: 'center'}}>Senior</h6>
+        <h6 style={{textAlign: 'center'}}>ctgilbertson@wisc.edu</h6>
+      </Col>
+      <Col>
+      <Image className="d-block mx-auto" style={{height: '140px', width: '140px'}} src={require("../../static/images/portrait2.png")} roundedCircle/>
+        <h5 style={{textAlign: 'center'}}>Chris Gilbertson</h5>
+        <h6 style={{textAlign: 'center'}}>Tech Team </h6>
+        <h6 style={{textAlign: 'center'}}>Senior</h6>
+        <h6 style={{textAlign: 'center'}}>ctgilbertson@wisc.edu</h6>
+      </Col>
+      <Col>
+      <Image className="d-block mx-auto" style={{height: '140px', width: '140px'}} src={require("../../static/images/portrait2.png")} roundedCircle/>
+        <h5 style={{textAlign: 'center'}}>Chris Gilbertson</h5>
+        <h6 style={{textAlign: 'center'}}>Tech Team </h6>
+        <h6 style={{textAlign: 'center'}}>Senior</h6>
+        <h6 style={{textAlign: 'center'}}>ctgilbertson@wisc.edu</h6>
+      </Col>
+      <Col>
+      <Image className="d-block mx-auto" style={{height: '140px', width: '140px'}} src={require("../../static/images/portrait2.png")} roundedCircle/>
+        <h5 style={{textAlign: 'center'}}>Chris Gilbertson</h5>
+        <h6 style={{textAlign: 'center'}}>Tech Team </h6>
+        <h6 style={{textAlign: 'center'}}>Senior</h6>
+        <h6 style={{textAlign: 'center'}}>ctgilbertson@wisc.edu</h6>
+      </Col> 
+      <Col>
+      <Image className="d-block mx-auto" style={{height: '140px', width: '140px'}} src={require("../../static/images/portrait2.png")} roundedCircle/>
+        <h5 style={{textAlign: 'center'}}>Chris Gilbertson</h5>
+        <h6 style={{textAlign: 'center'}}>Tech Team </h6>
+        <h6 style={{textAlign: 'center'}}>Senior</h6>
+        <h6 style={{textAlign: 'center'}}>ctgilbertson@wisc.edu</h6>
+      </Col>
+    </Row>
+
 
         <hr class="featurette-divider"/>
 
