@@ -27,7 +27,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
     <Row>
       <Col>
       <a href="https://www.linkedin.com/in/tylergraczyk/">
-      <Image className="d-block mx-auto" style={{height: '140px', width: '140px'}} src={require("../../static/images/portrait2.png")} roundedCircle />
+      <Image className="d-block mx-auto" style={{height: '140px', width: '140px'}} src={require("../../static/images/tyler.jpeg")} roundedCircle />
         <h5 style={{textAlign: 'center'}}>Tyler Graczyk</h5>
         <h6 style={{textAlign: 'center'}}>President </h6>
         <h6 style={{textAlign: 'center'}}>Senior</h6>
@@ -36,7 +36,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
       </Col>
       <Col>
       <a href="https://www.linkedin.com/in/christopher-gilbertson-aab32b196/">
-      <Image className="d-block mx-auto" style={{height: '140px', width: '140px'}} src={require("../../static/images/portrait2.png")} roundedCircle />
+      <Image className="d-block mx-auto" style={{height: '140px', width: '140px'}} src={require("../../static/images/chris.png")} roundedCircle />
         <h5 style={{textAlign: 'center'}}>Chris Gilbertson</h5>
         <h6 style={{textAlign: 'center'}}>Tech Team</h6>
         <h6 style={{textAlign: 'center'}}>Senior</h6>
@@ -45,7 +45,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
       </Col>
       <Col>
       <a href="https://www.linkedin.com/in/jessie-steckling-43274315b/">
-      <Image className="d-block mx-auto" style={{height: '140px', width: '140px'}} src={require("../../static/images/portrait2.png")} roundedCircle />
+      <Image className="d-block mx-auto" style={{height: '140px', width: '140px'}} src={require("../../static/images/jessie.jpeg")} roundedCircle />
         <h5 style={{textAlign: 'center'}}>Jessie Steckling</h5>
         <h6 style={{textAlign: 'center'}}>Energy Team</h6>
         <h6 style={{textAlign: 'center'}}>Senior</h6>
@@ -54,7 +54,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
       </Col>
       <Col>
       <a href="https://www.linkedin.com/in/ryan-wenzel/">
-      <Image className="d-block mx-auto" style={{height: '140px', width: '140px'}} src={require("../../static/images/portrait2.png")} roundedCircle />
+      <Image className="d-block mx-auto" style={{height: '140px', width: '140px'}} src={require("../../static/images/ryan.jpeg")} roundedCircle />
         <h5 style={{textAlign: 'center'}}>Ryan Wenzel</h5>
         <h6 style={{textAlign: 'center'}}>Business Team</h6>
         <h6 style={{textAlign: 'center'}}>Senior</h6>
@@ -63,7 +63,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
       </Col> 
       <Col>
       <a href="https://www.linkedin.com/in/scbrooks2/">
-      <Image className="d-block mx-auto" style={{height: '140px', width: '140px'}} src={require("../../static/images/portrait2.png")} roundedCircle />
+      <Image className="d-block mx-auto" style={{height: '140px', width: '140px'}} src={require("../../static/images/simon.jpeg")} roundedCircle />
         <h5 style={{textAlign: 'center'}}>Simon Brooks</h5>
         <h6 style={{textAlign: 'center'}}>Engineering Team</h6>
         <h6 style={{textAlign: 'center'}}>Senior</h6>
