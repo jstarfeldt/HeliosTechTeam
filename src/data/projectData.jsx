@@ -5,7 +5,7 @@ const solarData = [
     id: 0,
     title: "This is Project :) (smile)",
     date: new Moment("2019-10-31"),
-    imgUrl: "sun",
+    imgUrl: "sun.jpg",
     summary:
       "This is a test summary for the Project.",
     body:
@@ -32,7 +32,7 @@ const solarData = [
     id: 1,
     title: "title2",
     date: new Moment("2019-10-31"),
-    imgUrl: "",
+    imgUrl: "ArbProj.png",
     summary:
       "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr",
     body:
@@ -43,7 +43,7 @@ const solarData = [
     id: 2,
     title: "title3",
     date: new Moment("2019-10-31"),
-    imgUrl: "",
+    imgUrl: "paella.jpg",
     summary:
       "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr",
     body:
@@ -54,9 +54,9 @@ const solarData = [
     id: 3,
     title: "title4",
     date: new Moment("2019-10-31"),
-    imgUrl: "",
+    imgUrl: "SolarPanels.jpg",
     summary:
-      "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr",
+      "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr rejiwhjiwef wf  wef wedbwedkwed ghwdhjwejhdw we dhjwdjwg hjdghejwdghjweghjdwed wdwegjdhwghd uygwjehdu ygjwhedg yjhvwdgyjhvwdg yjhdwgyjhvufy hgvnfhvgnfthgv",
     body:
       "body1 sdlgvj esb gjmve  bfhd frbnob desklbg vdrlbd fkmbd fkmdbfk mbcdfljklmnjmnklmklddrl"
   },
@@ -76,7 +76,7 @@ const solarData = [
     id: 5,
     title: "title6",
     date: new Moment("2019-10-31"),
-    imgUrl: "",
+    imgUrl: "SolarPanels7.png",
     summary:
       "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr",
     body:

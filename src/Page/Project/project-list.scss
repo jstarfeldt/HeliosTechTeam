@@ -1,17 +1,11 @@
-// a {
-//   text-decoration: none;
-// }
-
 .item_list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 .item {
-  width: 18rem;
-  text-decoration: none;
+  width: 34rem;
   margin-top: 15px;
-  margin-bottom: 15px;
 }
 
 .item:hover {
@@ -25,9 +19,23 @@
   text-decoration: none;
 }
 
+img {
+  max-width: 256px;
+  max-height: 256px;
+  float: left;
+  margin: 15px;
+}
+
 .topCard {
   padding: 16px;
   align-items: center;
+}
+
+.cardText {
+  padding: 16px;
+}
+.cardTitle {
+  text-align: center;
 }
 
 .topCardGradient {
@@ -48,10 +56,4 @@ animation-fill-mode: initial;
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
 }
-
 }
-
-
-
-// to fix the number of iteams in each row
-// .categories_item { flex: 1 0 20%; margin: 5px; }

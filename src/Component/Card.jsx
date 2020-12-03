@@ -1,22 +1,24 @@
 import React from "react";
 import Card from "react-bootstrap/Card"
+import Row from "react-bootstrap/Row"
+import Col from "react-bootstrap/Col"
 
 const CustomCard = props => {
   const project = props.project
 
-  let image = project.imgUrl === "" ? 'heliosIcon' : project.imgUrl;
+  let image = project.imgUrl === "" ? 'heliosIcon.jpg' : project.imgUrl;
   return (
     <div>
       <Card className="item">
-          <Card.Img variant="top" src={require('../static/images/' + image + '.jpg')}></Card.Img>
-        <Card.Body>
-          <Card.Title variant="h6">
-            {project.title}
-          </Card.Title>
+        <Row className="cardText">
+          <Col>
+          <img src={require('../static/images/' + image)}></img>
+          <h4 className="cardTitle">{project.title}</h4>
           <Card.Text>
             {project.summary}
           </Card.Text>
-        </Card.Body>
+          </Col>
+        </Row>
       </Card>
 
     </div>
