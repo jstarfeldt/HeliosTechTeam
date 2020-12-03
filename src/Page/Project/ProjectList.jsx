@@ -16,7 +16,7 @@ import TextField from '@material-ui/core/TextField';
 import Button from 'react-bootstrap/Button'
 import { useHistory } from "react-router-dom";
 /**
- * Expects a state passed in 
+ * Expects a state passed in  
  * @param {*} props 
  */
 const ProjectSearchBar = ({setSearchFunction}) => {
