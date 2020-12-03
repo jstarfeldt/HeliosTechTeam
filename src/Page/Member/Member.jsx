@@ -6,7 +6,26 @@ import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
-import { Row } from "react-bootstrap";
+import CalendarModal from 'react-calendar';
+import moment from 'moment';
+import AddToCalendarHOC from 'react-add-to-calendar-hoc';
+import { Row, Button } from "react-bootstrap";
+//var AddToCalendarHOC = require('react-add-to-calendar-hoc');
+
+const startDatetime = moment().utc().add(2, 'days');
+const endDatetime = startDatetime.clone().add(2, 'hours');
+const duration = moment.duration(endDatetime.diff(startDatetime)).asHours();
+const event = {
+  description: 'Description of event. Going to have a lot of fun doing things that we scheduled ahead of time.',
+  duration,
+  endDatetime: endDatetime.format('YYYYMMDDTHHmmssZ'),
+  location: 'NYC',
+  startDatetime: startDatetime.format('YYYYMMDDTHHmmssZ'),
+  title: 'Super Fun Event',
+}
+
+const AddToCalendarModal = AddToCalendarHOC(Button, CalendarModal);
+
 
 export default function Member() {
   return (
@@ -29,6 +48,13 @@ export default function Member() {
         </h4>
       </Row>
         <h5 component="p">Thursday at 4pm</h5>
+        <AddToCalendarModal
+            className="farts"
+            linkProps={{
+            className: "farts",
+            }}
+            event={event}
+        />
       <Row>
         <h4 variant="h5" component="h3">
           Tech Team Contact
@@ -56,6 +82,7 @@ export default function Member() {
         <h4 variant="h5" component="h3">
           Meeting Times
         </h4>
+
       </Row>
         <h5 component="p">WHEN at WHEN</h5>
       <Row>
