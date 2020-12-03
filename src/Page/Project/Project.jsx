@@ -8,7 +8,7 @@ const Project = () => {
   return (
     <Layout>
       <div className="container">
-        <Card className="topCardGradient">
+        <Card className="topCard topCardGradient">
           <h2>Helios Projects</h2>
           <Card.Text>Helping our community with every watt</Card.Text>
         </Card>
