@@ -1,35 +1,13 @@
 import React from "react";
 import Card from "../../Component/Card";
 import data from "../../data/projectData";
-import { TextField } from "@material-ui/core";
-import { Grid } from '@material-ui/core';
-import { useHistory } from "react-router-dom";
-import { Link } from "react-router-dom";
 import "./project-list.scss";
 
 const ProjectList = () => {
-  let history = useHistory();
-
-  const handleCardClick = () => {
-    history.push("projects");
-  };
-
-  return (
+return (
     <div className="item_list">
-      <Grid container spacing={1}>
-        <Grid container item>
-          <TextField></TextField>
-        </Grid>
-      </Grid>
-      {data.map(d => (
-        <Link
-          to={`/projects/${d.id}`}
-          key={d.id}
-          textDecoration="none"
-          className="item"
-        >
-          <Card project={d} />
-        </Link>
+      {data.map(project => (
+          <a href={`/projects/${project.id}`} className="itemLink" ><Card project={project}/></a>
       ))}
     </div>
   );
