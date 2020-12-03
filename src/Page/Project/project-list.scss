@@ -1,24 +1,59 @@
-// a {
-//   text-decoration: none;
-// }
-
 .item_list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 .item {
-  text-decoration: none;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  width: 34rem;
+  margin-top: 15px;
 }
 
-.item {
+.item:hover {
+	transform: translateY(-0.5rem) scale(1.02);
+	box-shadow: 0 0.5em 3rem -1rem rgba(0,0,0,0.5);
+}
+.itemLink {
+  color: black;
+}
+.itemLink:hover {
   text-decoration: none;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
-// to fix the number of iteams in each row
-// .categories_item { flex: 1 0 20%; margin: 5px; }
+img {
+  max-width: 256px;
+  max-height: 256px;
+  float: left;
+  margin: 15px;
+}
+
+.topCard {
+  padding: 16px;
+  align-items: center;
+}
+
+.cardText {
+  padding: 16px;
+}
+.cardTitle {
+  text-align: center;
+}
+
+.topCardGradient {
+  color: whitesmoke;
+  padding: 16px;
+  align-items: center;
+  // Repurposed from the AI Club website
+background: linear-gradient(67deg, #9a0400, #F71735, #FF9F1C,#256630, #296d7c, #4b1331, #2c286b, #1d5c53, #43134b,#9a0400,#931621);
+background-size: 1800% 1800%;
+animation-name: rainbow;
+animation-timing-function: linear;
+animation-duration: 50s;
+animation-delay: 0ms;
+animation-iteration-count: infinite;
+animation-fill-mode: initial;
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+}

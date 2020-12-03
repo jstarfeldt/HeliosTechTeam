@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import Card from "../../Component/Card";
 import data from "../../data/projectData";
+<<<<<<< HEAD
 import { TextField, Select } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 import { Container, Row, Col, Dropdown } from "react-bootstrap"
 import { Link } from "react-router-dom";
+=======
+>>>>>>> origin/AlexP
 import "./project-list.scss";
 import { SettingsOverscanTwoTone } from "@material-ui/icons";
 
@@ -98,6 +101,7 @@ const ProjectSearchBar = ({setSearchFunction}) => {
 }
 
 const ProjectList = () => {
+<<<<<<< HEAD
   let history = useHistory();
 
   const [searchFunction, setSearchFunction] = useState(() => (data) => data);
@@ -118,6 +122,12 @@ const ProjectList = () => {
         >
           <Card project={d} />
         </Link>
+=======
+return (
+    <div className="item_list">
+      {data.map(project => (
+          <a href={`/projects/${project.id}`} className="itemLink" ><Card project={project}/></a>
+>>>>>>> origin/AlexP
       ))}
     </div>
   );
