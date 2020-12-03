@@ -1,16 +1,20 @@
 import React, { useState } from "react";
 import Card from "../../Component/Card";
 import data from "../../data/projectData";
-<<<<<<< HEAD
-import { TextField, Select } from "@material-ui/core";
-import { useHistory } from "react-router-dom";
-import { Container, Row, Col, Dropdown } from "react-bootstrap"
-import { Link } from "react-router-dom";
-=======
->>>>>>> origin/AlexP
 import "./project-list.scss";
 import { SettingsOverscanTwoTone } from "@material-ui/icons";
+import Layout from "../../Layout";
+import Container from 'react-bootstrap/Container'
+import Carousel from 'react-bootstrap/Carousel'
+import Image from 'react-bootstrap/Image'
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import Row from 'react-bootstrap/Row'
+import Select from 'react-select';
+import Col from 'react-bootstrap/Col'
+import TextField from '@material-ui/core/TextField';
 
+import Button from 'react-bootstrap/Button'
+import { useHistory } from "react-router-dom";
 /**
  * Expects a state passed in 
  * @param {*} props 
@@ -101,33 +105,10 @@ const ProjectSearchBar = ({setSearchFunction}) => {
 }
 
 const ProjectList = () => {
-<<<<<<< HEAD
-  let history = useHistory();
-
-  const [searchFunction, setSearchFunction] = useState(() => (data) => data);
-  
-  const handleCardClick = () => {
-    history.push("projects");
-  };
-
-  return (
-    <div className="item_list">
-      <ProjectSearchBar setSearchFunction={setSearchFunction}/>
-      {searchFunction( data ).map(d => (
-        <Link
-          to={`/projects/${d.id}`}
-          key={d.id}
-          textDecoration="none"
-          className="item"
-        >
-          <Card project={d} />
-        </Link>
-=======
 return (
     <div className="item_list">
       {data.map(project => (
           <a href={`/projects/${project.id}`} className="itemLink" ><Card project={project}/></a>
->>>>>>> origin/AlexP
       ))}
     </div>
   );
