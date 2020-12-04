@@ -5,6 +5,7 @@ const solarData = [
   {
     id: 0,
     title: "This is Project :) (smile)",
+    team: "Technology",
     date: new Moment("2019-10-31"),
     imgUrl: "sun.jpg",
     summary:
@@ -32,6 +33,7 @@ const solarData = [
   {
     id: 1,
     title: "title2",
+    team: "Technology",
     date: new Moment("2019-10-31"),
     imgUrl: "ArbProj.png",
     summary:
@@ -43,6 +45,7 @@ const solarData = [
   {
     id: 2,
     title: "title3",
+    team: "General",
     date: new Moment("2019-10-31"),
     imgUrl: "paella.jpg",
     summary:
@@ -55,7 +58,8 @@ const solarData = [
   {
     id: 3,
     title: "title4",
-    date: new Moment("2019-10-31"),
+    team: "Business",
+    date: new Moment("2018-10-31"),
     imgUrl: "SolarPanels.jpg",
     summary:
       "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr rejiwhjiwef wf  wef wedbwedkwed ghwdhjwejhdw we dhjwdjwg hjdghejwdghjweghjdwed wdwegjdhwghd uygwjehdu ygjwhedg yjhvwdgyjhvwdg yjhdwgyjhvufy hgvnfhvgnfthgv",
@@ -66,7 +70,8 @@ const solarData = [
   {
     id: 4,
     title: "title5",
-    date: new Moment("2019-10-31"),
+    team: "Technology",
+    date: new Moment("2019-10-19"),
     imgUrl: "",
     summary:
       "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr",
@@ -77,7 +82,8 @@ const solarData = [
   {
     id: 5,
     title: "title6",
-    date: new Moment("2019-10-31"),
+    team: "Technology",
+    date: new Moment("2019-01-31"),
     imgUrl: "SolarPanels7.png",
     summary:
       "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr",

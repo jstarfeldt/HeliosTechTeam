@@ -13,7 +13,7 @@ const ProjectDetails = ({ match }) => {
       <Layout>
         <div className="container">
           <Card className="topCard">
-            <img className="projectImage" src={require('../../static/images/' + image)}></img>
+            <img className={image !== "HeliosFull.png" ? "projectImage" : "defaultImage"} src={require('../../static/images/' + image)}></img>
           </Card>
           <h3>{contents.title}</h3>
           {contents.body}
