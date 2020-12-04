@@ -1,4 +1,5 @@
 import Moment from "moment";
+import React from "react"
 
 const solarData = [
   {
@@ -47,7 +48,8 @@ const solarData = [
     summary:
       "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr",
     body:
-      "body1 sdlgvj esb gjmve  bfhd frbnob desklbg vdrlbd fkmbd fkmdbfk mbcdfljklmnjmnklmklddrl"
+    <div><h3>Some stuff</h3><p>Some more stuff</p></div>
+      
   },
 
   {

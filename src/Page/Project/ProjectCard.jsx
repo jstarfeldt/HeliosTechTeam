@@ -12,7 +12,7 @@ const CustomCard = props => {
       <Card className="item">
         <Row className="cardText">
           <Col className="stuff">
-          <img src={require('../../static/images/' + image)}></img>
+          <img className="cardImg" src={require('../../static/images/' + image)}></img>
           </Col>
           <Col>
           <h4 className="cardTitle">{project.title}</h4>
