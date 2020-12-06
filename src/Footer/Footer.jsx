@@ -2,7 +2,12 @@ import React, { Component } from "react";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 import Link from "@material-ui/core/Link";
+import Image from 'react-bootstrap/Image'
+import { Navbar, Nav, NavItem, NavDropdown, Form, FormControl, Button} from 'react-bootstrap';
 import { makeStyles } from "@material-ui/core/styles";
+import { useHistory } from "react-router-dom";
+import "./Footer.scss";
+
 
 const useStyles = makeStyles(theme => ({
   footer: {
@@ -12,37 +17,24 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-function MadeWithLove() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {"Built with love by the "}
-      <Link color="inherit" href="https://material-ui.com/">
-        Material-UI
-      </Link>
-      {" team."}
-    </Typography>
-  );
-}
-
 export default function Footer() {
+  let history = useHistory();
+
   const classes = useStyles();
 
   return (
     <footer className={classes.footer}>
-      <Container maxWidth="lg">
-        <Typography variant="h6" align="center" gutterBottom>
-          Footer
-        </Typography>
-        <Typography
-          variant="subtitle1"
-          align="center"
-          color="textSecondary"
-          component="p"
-        >
-          Something here to give the footer a purpose!
-        </Typography>
-        <MadeWithLove />
-      </Container>
+      <Image 
+          className="d-block mx-auto"
+          src={require("../../src/static/images/heliosLogo.png")}
+          height="30"
+          alt=""/>
+          <Nav className="m-auto footer-nav">
+            <Nav.Link className="navLink" onClick={() => history.push("/about")}>About</Nav.Link>
+            <Nav.Link className="navLink" onClick={() => history.push("/project")}>Projects</Nav.Link>
+            <Nav.Link className="navLink" onClick={() => history.push("/Member")}>Member</Nav.Link>
+            <Nav.Link className="navLink" onClick={() => history.push("/Research")}>Research</Nav.Link>
+          </Nav>
     </footer>
   );
 }

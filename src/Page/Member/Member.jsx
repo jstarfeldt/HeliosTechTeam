@@ -1,92 +1,131 @@
 import React from "react";
 import Layout from "../../Layout";
 import "./Member.scss";
-import Paper from "@material-ui/core/Paper";
-import Typography from "@material-ui/core/Typography";
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
+import Container from 'react-bootstrap/Container'
+import Col from 'react-bootstrap/Col'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
-
+import { Row } from "react-bootstrap";
 
 export default function Member() {
   return (
   <Layout>
     <Container className="MemberContainer">
 	 
-	 <Tabs defaultActiveKey="Tech" id="uncontrolled-tab-example">
-
-	 <Tab eventKey="Tech" title="Tech">
-	 <h1 className="TechPage">
-		This is where we will put the tech memebers!
-     </h1>
-	 <Paper>
-          <Typography variant="h5" component="h3">
-            Tech Team Lead
-          </Typography>
-           <Typography variant="subtitle1">Chris Gilbertson</Typography>
+	 <Tabs defaultActiveKey="Tech" id="uncontrolled-tab-example" className ="team-tabs">
+	 <Tab eventKey="Tech" title="Tech" style={{backgroundColor: 'white'}}>
+      <Row>
+        <h1 className="m-auto">
+          Technology Team
+        </h1>
+      </Row>
+      <Row>
+        <Image className="m-auto" fluid src={require("../../static/images/techteam.jpg")}/> 
+      </Row>
+      <Row>
+        <h4 variant="h5" component="h3">
+          Meeting Times
+        </h4>
+      </Row>
+        <h5 component="p">Thursday at 4pm</h5>
+      <Row>
+        <h4 variant="h5" component="h3">
+          Tech Team Contact
+        </h4>
+      </Row>
+        <h5 component="p">Chris Gilbertson</h5>
           <div class="testBox">
-            <Typography variant="body2"> Year:  </Typography>
-            <Typography variant="body2"> Major: </Typography>
-            <Typography variant="body2"> Email: </Typography>
+            <h6 component="p"> Year: Senior </h6>
+            <h6 component="p"> Major: Computer Science</h6>
+            <h6 component="p"> Email: ctgilbertson@wisc.edu </h6>
           </div>
-        </Paper>
 	 </Tab>
 
 
-	 <Tab eventKey="Energy" title="Energy">	
-	 <h1 className="EnergyPage">
-		This is where we will put the Energy memebers!
-     </h1>
-     <Paper>
-	 <Typography variant="h5" component="h3">
-            Energy Team Lead
-          </Typography>
-          <Typography variant="subtitle1">Jessie Steckling</Typography>
+	 <Tab eventKey="Energy" title="Energy" style={{backgroundColor: 'white'}}>
+   <Row>
+        <h1 className="m-auto">
+          Energy Team
+        </h1>
+      </Row>
+      <Row>
+        <Image className="m-auto" fluid src={require("../../static/images/techteam.jpg")}/> 
+      </Row>
+      <Row>
+        <h4 variant="h5" component="h3">
+          Meeting Times
+        </h4>
+      </Row>
+        <h5 component="p">WHEN at WHEN</h5>
+      <Row>
+        <h4 variant="h5" component="h3">
+          Energy Team Contact
+        </h4>
+      </Row>
+        <h5 component="p">Jessie Steckling</h5>
           <div class="testBox">
-            <Typography variant="body2"> Year:   </Typography>
-            <Typography variant="body2"> Major:  </Typography>
-            <Typography variant="body2"> Email:  </Typography>
+            <h6 component="p"> Year: Senior </h6>
+            <h6 component="p"> Major: Computer Science and Math</h6>
+            <h6 component="p"> Email: jsteckling@wisc.edu</h6>
           </div>
-          </Paper>
 	 </Tab>
 
 
-	 <Tab eventKey="Business" title="Business">
-	 <h1 className="BusinessPage">
-		This is where we will put the Business memebers!
-     </h1>
-     <Paper>
-	 <Typography variant="h5" component="h3">
-            Business Team Lead
-          </Typography>
-          <Typography variant="subtitle1">Tyler Joseph Graczyk</Typography>
+   <Tab eventKey="Business" title="Business" style={{backgroundColor: 'white'}}>
+   <Row>
+        <h1 className="m-auto">
+          Business Team
+        </h1>
+      </Row>
+      <Row>
+        <Image className="m-auto" fluid src={require("../../static/images/techteam.jpg")}/> 
+      </Row>
+      <Row>
+        <h4 variant="h5" component="h3">
+          Meeting Times
+        </h4>
+      </Row>
+        <h5 component="p">WHEN at WHEN</h5>
+      <Row>
+        <h4 variant="h5" component="h3">
+          Business Team Contact
+        </h4>
+      </Row>
+        <h5 component="p">Ryan Wenzel</h5>
           <div class="testBox">
-            <Typography variant="body2">Year:</Typography>
-            <Typography variant="body2">Major:</Typography>
-            <Typography variant="body2">Email: </Typography>
+            <h6 component="p"> Year: Senior</h6>
+            <h6 component="p"> Major: Mechanical Engineering</h6>
+            <h6 component="p"> Email: rtwenzel@wisc.edu </h6>
           </div>
-          </Paper>
 	 </Tab>
 
-
-	 <Tab eventKey="Engineering" title="Engineering">
-	 <h1 className="EngineeringPage">
-		This is where we will put the Engineering memebers!
-     </h1>
-     <Paper>
-	 <Typography variant="h5" component="h3">
-            Engineering Team Lead
-          </Typography >
-          <Typography variant="subtitle1">Simon Brooks</Typography>
+   <Tab eventKey="Engineering" title="Engineering" style={{backgroundColor: 'white'}}>
+   <Row>
+        <h1 className="m-auto">
+          Engineering Team
+        </h1>
+      </Row>
+      <Row>
+        <Image className="m-auto" fluid src={require("../../static/images/techteam.jpg")}/> 
+      </Row>
+      <Row>
+        <h4 variant="h5" component="h3">
+          Meeting Times
+        </h4>
+      </Row>
+        <h5 component="p">WHEN at WHEN</h5>
+      <Row>
+        <h4 variant="h5" component="h3">
+          Engineering Team Contact
+        </h4>
+      </Row>
+        <h5 component="p">Simon Brooks</h5>
           <div class="testBox">
-            <Typography variant="body2">Year:</Typography>
-            <Typography variant="body2">Major:</Typography>
-            <Typography variant="body2">Email: </Typography>
+            <h6 component="p"> Year: Junior </h6>
+            <h6 component="p"> Major: Mechanical Engineering</h6>
+            <h6 component="p"> Email: scbrooks2@wisc.edu </h6>
           </div>
-        </Paper>
 	 </Tab>
 
 
