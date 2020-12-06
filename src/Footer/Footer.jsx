@@ -24,16 +24,16 @@ export default function Footer() {
 
   return (
     <footer className={classes.footer}>
-      <Image 
+      <a href="#top" onClick={() => history.push("")}>
+      <Image        
           className="d-block mx-auto"
           src={require("../../src/static/images/heliosLogo.png")}
           height="30"
-          alt=""/>
+          alt=""/></a>
           <Nav className="m-auto footer-nav">
-            <Nav.Link className="navLink" onClick={() => history.push("/about")}>About</Nav.Link>
-            <Nav.Link className="navLink" onClick={() => history.push("/project")}>Projects</Nav.Link>
-            <Nav.Link className="navLink" onClick={() => history.push("/Member")}>Member</Nav.Link>
-            <Nav.Link className="navLink" onClick={() => history.push("/Research")}>Research</Nav.Link>
+            <Nav.Link href="#top" className="navLink" onClick={() => history.push("/project")}>Projects</Nav.Link>
+            <Nav.Link href="#top" className="navLink" onClick={() => history.push("/Member")}>Member</Nav.Link>
+            <Nav.Link href="#top" className="navLink" onClick={() => history.push("/Research")}>Research</Nav.Link>
           </Nav>
     </footer>
   );

@@ -9,7 +9,7 @@ const Custombar = () => {
   let history = useHistory();
   return (
       <Navbar className="homeBar" bg="themed" expand="lg">
-        <Navbar.Brand href="#home" onClick={() => history.push("")}>
+        <Navbar.Brand onClick={() => history.push("")}>
           <img 
             src={require("../../src/static/images/heliosLogo.png")}
             height="30"
