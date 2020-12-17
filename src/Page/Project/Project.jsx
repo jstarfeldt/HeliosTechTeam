@@ -1,30 +1,20 @@
 import React from "react";
 import ProjectList from "./ProjectList";
-import { makeStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
-import Typography from "@material-ui/core/Typography";
+import Card from "react-bootstrap/card";
 import Layout from "../../Layout";
-import Button from 'react-bootstrap/Button';
-
-const useStyles = makeStyles(theme => ({
-  root: {
-    padding: theme.spacing(3, 2)
-  }
-}));
+import "./project-list.scss";
 
 const Project = () => {
-  const classes = useStyles();
-
   return (
-    <div>
-      <Layout>
+    <Layout>
       <div className="container">
-        <h1>Helios Projects</h1>
+        <Card className="topCard topCardGradient">
+          <h2>Helios Projects</h2>
+          <Card.Text>Helping our community with every watt</Card.Text>
+        </Card>
         <ProjectList />
-        </div>
-      </Layout>
-
-    </div>
+      </div>
+    </Layout>
   );
 };
 

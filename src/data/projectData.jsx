@@ -4,7 +4,7 @@ const solarData = [
   {
     id: 0,
     title: "This is Project :) (smile)",
-    date: new Moment("2019-10-30"),
+    date: new Moment("2019-10-31"),
     imgUrl: "sun",
     summary:
       "This is a test summary for the Project.",
@@ -30,9 +30,9 @@ const solarData = [
 
   {
     id: 1,
-    title: "Garbage for Dinner",
-    date: new Moment("2019-11-27"),
-    imgUrl: "helios1",
+    title: "title2",
+    date: new Moment("2019-10-31"),
+    imgUrl: "",
     summary:
       "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr",
     body:
@@ -41,9 +41,9 @@ const solarData = [
 
   {
     id: 2,
-    title: "Poop",
-    date: new Moment("2019-08-31"),
-    imgUrl: "paella",
+    title: "title3",
+    date: new Moment("2019-10-31"),
+    imgUrl: "",
     summary:
       "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr",
     body:
@@ -52,7 +52,7 @@ const solarData = [
 
   {
     id: 3,
-    title: "Pooper",
+    title: "title4",
     date: new Moment("2019-10-31"),
     imgUrl: "",
     summary:
@@ -63,7 +63,7 @@ const solarData = [
 
   {
     id: 4,
-    title: "poopest",
+    title: "title5",
     date: new Moment("2019-10-31"),
     imgUrl: "",
     summary:
@@ -74,13 +74,26 @@ const solarData = [
 
   {
     id: 5,
-    title: "enpoop",
+    title: "title6",
     date: new Moment("2019-10-31"),
     imgUrl: "",
     summary:
       "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr",
     body:
       "body1 sdlgvj esb gjmve  bfhd frbnob desklbg vdrlbd fkmbd fkmdbfk mbcdfljklmnjmnklmklddrl"
+  },
+  {
+    id: 6,
+    title: "title6",
+    date: new Moment("2020-1-1"),
+    team: 'Tech',
+    imgUrl: "",
+    summary:
+      "Helios Website",
+    body:
+      `
+        Throughout the course of the last two years we have built and continue to build a website so that we can show off all of the projects that we have completed. This way we can continue to recruit new members using 
+      `
   }
 ];
 

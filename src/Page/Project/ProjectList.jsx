@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import Card from "../../Component/Card";
+import Card from "./ProjectCard";
 import data from "../../data/projectData";
 import { TextField, Select, InputLabel, MenuItem, FormControl } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
-import { Container, Row, Col, Dropdown } from "react-bootstrap"
-import { Link } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap"
 import "./project-list.scss";
 import { SettingsOverscanTwoTone } from "@material-ui/icons";
 
@@ -14,7 +13,7 @@ import { SettingsOverscanTwoTone } from "@material-ui/icons";
  */
 const ProjectSearchBar = ({setSearchFunction}) => {
 
-  const [ inputStates, setInputStates ] = useState({});
+  const [ inputStates, setInputStates ] = useState({ "sort" : "DATE DESC" });
 
   const buildSearchFunction = ( newState ) => {
     
@@ -34,6 +33,17 @@ const ProjectSearchBar = ({setSearchFunction}) => {
           isValid = isValid && (
               newStates.title == "" || titleStandard.indexOf(inputStandard) != -1
             )
+        }
+
+        if("team" in newStates){
+          
+          let input = newStates.team;
+          let data = dataPiece.team;
+
+          isValid = isValid && (
+              input == "" || data == input
+            )
+           
         }
         
         return isValid;
@@ -138,8 +148,8 @@ const ProjectSearchBar = ({setSearchFunction}) => {
               style={styles.select.input}
             >
               <MenuItem value="">None</MenuItem>
-              <MenuItem selected value="DATE ASC">Date ASC</MenuItem>
-              <MenuItem value="DATE DESC">Date DESC</MenuItem>
+              <MenuItem value="DATE ASC">Date ASC</MenuItem>
+              <MenuItem selected value="DATE DESC">Date DESC</MenuItem>
             </Select>
           </FormControl>
         </Col>
@@ -152,23 +162,14 @@ const ProjectList = () => {
   let history = useHistory();
 
   const [searchFunction, setSearchFunction] = useState(() => (data) => data);
-  
-  const handleCardClick = () => {
-    history.push("projects");
-  };
 
   return (
     <div className="item_list">
       <ProjectSearchBar setSearchFunction={setSearchFunction}/>
-      {searchFunction( data ).map(d => (
-        <Link
-          to={`/projects/${d.id}`}
-          key={d.id}
-          textDecoration="none"
-          className="item"
-        >
-          <Card project={d} />
-        </Link>
+      {searchFunction( data ).map(project => (
+        <a className="itemLink" onClick={() => history.push(`/projects/${project.id}`)}>
+          <Card project={project} />
+        </a>
       ))}
     </div>
   );
