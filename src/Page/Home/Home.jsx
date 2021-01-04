@@ -91,11 +91,13 @@ To spread awareness for sustainability, and particularly renewable energy projec
 
         <div class="row featurette" onClick={() => history.push("/project")}>
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah,it's that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">Sustainability projects local to Madison.<span class="text-muted"> See for yourself.</span></h2>
+            <p class="lead">The City of Madison and Dane County have a long history of supporting projects and causes that champion sustainability for the State of Wisconsin. Feel free to peruse what our community is doing to help the public at large.</p>
           </div>
           <div class="col-md-5 order-md-1">
-          <Image className="featurette-image mx-auto" src={require("../../static/images/ArbProj.png")} fluid rounded/>
+          <a href="https://www.cityofmadison.com/sustainability/city/renewable.cfm">
+            <Image className="featurette-image mx-auto" src={require("../../static/images/capitolBuilding.jpg")} fluid rounded/>
+            </a>
           </div>
         </div>
 
@@ -103,11 +105,13 @@ To spread awareness for sustainability, and particularly renewable energy projec
 
         <div class="row featurette" onClick={() => history.push("/project")}>
           <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted"> Our story.</span></h2>
+            <p class="lead">Helios is a young organization, started in 2017 by a couple of eco-minded students. You can read about the formation of Helios here, and the goals and ideals that have influenced our organization's activities since.</p>
           </div>
           <div class="col-md-5">
-            <Image className="featurette-image mx-auto" />
+          <a href="https://medium.com/@heliosuwmadison/helios-who-we-are-337da9c1fc06">
+            <Image className="featurette-image mx-auto" src={require("../../static/images/helios1.jpg")} height="20" fluid rounded/>
+            </a>
           </div>
         </div>
 
