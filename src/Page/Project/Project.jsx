@@ -19,12 +19,7 @@ const Project = () => {
     <div>
       <Layout>
       <div className="container">
-        <Paper className={classes.root}>
-          <Typography variant="h5" component="h3">
-            Helios Projects
-          </Typography>
-          <Typography component="p">Helping our community with every watt</Typography>
-        </Paper>
+        <h1>Helios Projects</h1>
         <ProjectList />
         </div>
       </Layout>
