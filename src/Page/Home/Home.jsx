@@ -19,7 +19,7 @@ export default function Home() {
         <Jumbotron style={{marginRight: 'auto', marginTop: '100px'}}>
           <div className="col-md-6 px-0" style={{marginRight: 'auto', marginBottom: '450px'}} >
             <h1 className="display-4 font-italic">Helios</h1>
-            <p className="lead my-3">To work towards a more sustainable future, Helios will work towards making the UW-Madison campus more renewable, one building at a time.
+            <p className="lead my-3">To work towards a more awesome future, Helios will work towards making the UW-Madison campus more renewable, one building at a time.
 To spread awareness for sustainability, and particularly renewable energy projects, throughout the campus, and the community of Madison.</p>
           </div>
         </Jumbotron>
@@ -87,11 +87,13 @@ To spread awareness for sustainability, and particularly renewable energy projec
 
         <div class="row featurette" onClick={() => history.push("/project")}>
           <div class="col-md-7">
-            <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <h2 class="featurette-heading">Join Helios! <span class="text-muted">UW Org Fair!</span></h2>
+            <p class="lead">Come check out Helios virtually and learn what we are all about!</p>
           </div>
           <div class="col-md-5">
-            <Image className="featurette-image mx-auto" src={require("../../static/images/GordonsProject.jpg")} fluid rounded/>
+          <a href="https://win.wisc.edu/event/6187642">
+            <Image className="featurette-image mx-auto" src={require("../../static/images/OrgFair.jpeg")} fluid rounded/>
+            </a>
           </div>
         </div>
 
