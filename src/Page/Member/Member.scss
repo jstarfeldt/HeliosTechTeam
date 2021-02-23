@@ -53,3 +53,68 @@
 .team-tabs > a:hover{
     color: black
 }
+
+.react-add-to-calendar__button{
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #aab9d4;
+    border-radius: 3px;
+    color: #000;
+}
+
+.react-add-to-calendar__dropdown {
+    position: absolute;
+    top: 30px;
+    left: 1px;
+    width: 93%;
+    padding: 5px 0 5px 8px;
+    border: 1px solid #a8a8a8;
+    background-color: #fff;
+    text-align: left;
+}
+
+.react-add-to-calendar__button--light {
+    background-color: #fff;
+}
+
+.react-add-to-calendar {
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.react-add-to-calendar__wrapper {
+    zoom: 1;
+    cursor: pointer;
+}
+
+.react-add-to-calendar__icon--right {
+    padding-left: 5px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-caret-down:before {
+    content: "\F150";
+}
+
+.fa-caret-up:before {
+    content: "\F151";
+}
+
+.display-5{
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.bold{
+    font-weight: bold !important;
+}
