@@ -1,48 +1,26 @@
-import React, { Component } from "react";
-import Typography from "@material-ui/core/Typography";
-import Container from "@material-ui/core/Container";
-import Link from "@material-ui/core/Link";
-import { makeStyles } from "@material-ui/core/styles";
-
-const useStyles = makeStyles(theme => ({
-  footer: {
-    backgroundColor: theme.palette.background.paper,
-    marginTop: theme.spacing(8),
-    padding: theme.spacing(6, 0)
-  }
-}));
-
-function MadeWithLove() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {"Built with love by the "}
-      <Link color="inherit" href="https://material-ui.com/">
-        Material-UI
-      </Link>
-      {" team."}
-    </Typography>
-  );
-}
+import React from "react";
+import { Navbar, Nav } from 'react-bootstrap';
+import { useHistory } from "react-router-dom";
+import "./Footer.scss";
 
 export default function Footer() {
-  const classes = useStyles();
+  let history = useHistory();
 
   return (
-    <footer className={classes.footer}>
-      <Container maxWidth="lg">
-        <Typography variant="h6" align="center" gutterBottom>
-          Footer
-        </Typography>
-        <Typography
-          variant="subtitle1"
-          align="center"
-          color="textSecondary"
-          component="p"
-        >
-          Something here to give the footer a purpose!
-        </Typography>
-        <MadeWithLove />
-      </Container>
+    <footer>
+      <Navbar.Brand href="#top" className="footer-brand" onClick={() => history.push("../#top")}>
+        <img
+          src={require("../../src/static/images/HeliosFull.png")}
+          height="30"
+          alt="" />
+      </Navbar.Brand>
+      <Navbar className="footer-nav" bg="themed" expand="lg">
+        <Nav className="m-auto">
+          <Nav.Link href="/project#top" onClick={() => history.push("../project#top")}>Projects</Nav.Link>
+          <Nav.Link href="/Member#top" onClick={() => history.push("../Member#top")}>Member</Nav.Link>
+          <Nav.Link href="/Research#top" onClick={() => history.push("../Research#top")}>Research</Nav.Link>
+        </Nav>
+      </Navbar>
     </footer>
   );
 }
