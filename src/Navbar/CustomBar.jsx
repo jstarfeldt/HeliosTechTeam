@@ -21,11 +21,7 @@ const Custombar = () => {
           <Nav className="ml-auto">
             <Nav.Link onClick={() => history.push("")}>Home</Nav.Link>
             <Nav.Link onClick={() => history.push("/project")}>Projects</Nav.Link>
-            <NavDropdown title="Information" id="basic-nav-dropdown">
-              <NavDropdown.Item onClick={() => history.push("/member")}>Members</NavDropdown.Item>
-              <NavDropdown.Item onClick={() => history.push("/Research")}>Research</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Energy Tips</NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link onClick={() => history.push("/member")}>Members</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
