@@ -8,7 +8,7 @@ import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import CalendarModal from 'react-calendar';
 import moment from 'moment';
-import AddToCalendarHOC from 'react-add-to-calendar-hoc';
+import AddToCalendarHOC from 'react-add-to-calendar-hoc'; 
 import { Row, Button } from "react-bootstrap";
 //var AddToCalendarHOC = require('react-add-to-calendar-hoc');
 
