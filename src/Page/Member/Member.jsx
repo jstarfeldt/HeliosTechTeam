@@ -95,7 +95,7 @@ export default function Member() {
               <ul>
                 <p class="h6">Year: Junior</p>
                 <p class="h6">Major: Mechanical Engineering</p>
-                <p class="h6">Email: scbrooks2@wisc.edu</p>
+                <p class="h6">Email: scbrooks2@wisc.edu</p> 
               </ul> 
           </div>
 	      </Tab>
