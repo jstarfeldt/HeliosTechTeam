@@ -16,9 +16,9 @@ export default function Footer() {
       </Navbar.Brand>
       <Navbar className="footer-nav" bg="themed" expand="lg">
         <Nav className="m-auto">
+          <Nav.Link onClick={() => history.push("./#top")}>Home</Nav.Link>
           <Nav.Link href="/project#top" onClick={() => history.push("../project#top")}>Projects</Nav.Link>
           <Nav.Link href="/Member#top" onClick={() => history.push("../Member#top")}>Member</Nav.Link>
-          <Nav.Link href="/Research#top" onClick={() => history.push("../Research#top")}>Research</Nav.Link>
         </Nav>
       </Navbar>
     </footer>
