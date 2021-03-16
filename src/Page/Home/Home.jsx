@@ -1,12 +1,10 @@
 import React from "react";
 import Layout from "../../Layout";
 import "./home.scss";
-import Carousel from 'react-bootstrap/Carousel'
 import Image from 'react-bootstrap/Image'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Button from 'react-bootstrap/Button'
 import { useHistory } from "react-router-dom";
 
 export default function Home() {
