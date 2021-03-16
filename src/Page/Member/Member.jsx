@@ -35,12 +35,6 @@ export default function Member() {
 	      <Tab eventKey="Tech" title="Tech" style={{backgroundColor: 'white'}}>
           <div class="text-center">
             <h1 class="display-4 font-italic">Technology Team</h1>
-            <Image className="m-auto" fluid src={require("../../static/images/techteam.jpg")}/> 
-            <p className="lead my-1"> The Helios Tech Team is focused on Computer Science and coding. 
-                                      For the Fall 2020 semester we redesigned the Helios website to 
-                                      run on React.js and bootstrap.  </p>
-          </div>
-          <hr></hr>
           <Row>
             <Col>
               <h4 class="display-4 font-italic ">Meetings</h4>
@@ -61,6 +55,12 @@ export default function Member() {
                 </ul> 
             </Col>
           </Row>
+          <hr></hr>
+            <Image className="m-auto" fluid src={require("../../static/images/techteam.jpg")}/> 
+            <p className="lead my-1"> The Helios Tech Team is focused on Computer Science and coding. 
+                                      For the Fall 2020 semester we redesigned the Helios website to 
+                                      run on React.js and bootstrap.  </p>
+          </div>
 	      </Tab>
 
         <Tab eventKey="Energy" title="Energy" style={{backgroundColor: 'white'}}>
