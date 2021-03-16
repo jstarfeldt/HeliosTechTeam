@@ -43,8 +43,8 @@ export default function Member() {
           <hr></hr>
           <Row>
             <Col>
-              <h4 class="display-4 font-italic ">Meetings</h4>
-              <h6 class="display-5 font-italic">Tuesdays: 6-7PM</h6>
+              <h4 class="h4 bold">Meetings</h4>
+              <h6 class="h5 bold">Tuesdays: 6-7PM</h6>
               <br/>
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
