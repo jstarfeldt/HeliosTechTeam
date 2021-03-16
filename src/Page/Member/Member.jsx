@@ -5,17 +5,10 @@ import Image from 'react-bootstrap/Image'
 import Container from 'react-bootstrap/Container'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
-<<<<<<< HEAD
-import CalendarModal from 'react-calendar';
-import moment from 'moment';
-import AddToCalendarHOC from 'react-add-to-calendar-hoc'; 
-import { Row, Button } from "react-bootstrap";
-=======
 import AddToCalendar from 'react-add-to-calendar'
 import { Col, Row, Button } from "react-bootstrap";
 import 'font-awesome/css/font-awesome.min.css';
 
->>>>>>> 3a5a50aa1538f4699fa6865efdb99c877ac3bb72
 //var AddToCalendarHOC = require('react-add-to-calendar-hoc');
 
 
