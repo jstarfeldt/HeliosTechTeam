@@ -62,74 +62,96 @@ export default function Member() {
                                       run on React.js and bootstrap.  </p>
           </div>
 	      </Tab>
-
-        <Tab eventKey="Energy" title="Energy" style={{backgroundColor: 'white'}}>
-          <div class="text-center">
-            <h1 class="display-4 font-italic">Energy Team</h1>
-            <Image className="m-auto" fluid src={require("../../static/images/techteam.jpg")}/> 
-            <p className="lead my-1"> The Helios Energy Team</p>
-          </div>
-          <div>
-            <p class="h4">Meetings</p>
-            {/*Add to calendar button*/}
-          </div>
-          <div>
-            <p class="h4">Energy Team Contact:</p>
-            <p class="h5">Jessie Steckling</p>
-              <ul>
-                <p class="h6">Year: Senior</p>
-                <p class="h6">Major: Computer Science and Math</p>
-                <p class="h6">Email: jsteckling@wisc.edu</p>
-              </ul> 
-          </div>
-	      </Tab>
-	 
-        <Tab eventKey="Business" title="Business" style={{backgroundColor: 'white'}}>
-          <div class="text-center">
-            <h1 class="display-4 font-italic">Business Team</h1>
-            <Image className="m-auto" fluid src={require("../../static/images/techteam.jpg")}/> 
-            <p className="lead my-1"> The Helios Business Team</p>
-          </div>
-          <div>
-            <p class="h4">Meetings</p>
-            {/*Add to calendar button*/}
-          </div>
-          <div>
-            <p class="h4">Business Team Contact:</p>
-            <p class="h5">Ryan Wenzel</p>
-              <ul>
-                <p class="h6">Year: Senior</p>
-                <p class="h6">Major: Mechanical Engineering</p>
-                <p class="h6">Email: rtwenzel@wisc.edu</p>
-              </ul> 
-          </div>
-	      </Tab>
-
         <Tab eventKey="Engineering" title="Engineering" style={{backgroundColor: 'white'}}>
           <div class="text-center">
             <h1 class="display-4 font-italic">Engineering Team</h1>
-            <Image className="m-auto" fluid src={require("../../static/images/techteam.jpg")}/> 
-            <p className="lead my-1"> 
-              The engineering team within Helios works on projects with the university that aim to increase 
-              the use of renewable energy (primarily solar) on campus. We believe the projects we engage in 
-              help move us towards a clean energy economy and improve the campus experience for all.
-            </p>
-          </div>
-          <div>
-            <p class="h4">Meetings</p>
-            {/*Add to calendar button*/}
-          </div>
-          <div>
-            <p class="h4">Engineering Team Contact:</p>
-            <p class="h5">Simon Brooks</p>
-              <ul>
-                <p class="h6">Year: Junior</p>
-                <p class="h6">Major: Mechanical Engineering</p>
-                <p class="h6">Email: scbrooks2@wisc.edu</p>
-              </ul> 
+          <Row>
+            <Col>
+              <h4 class="h4 bold">Meetings</h4>
+              <h6 class="h5 bold">Tuesdays: 6-7PM</h6>
+              <br/>
+              <AddToCalendar event={event}></AddToCalendar>
+            </Col>
+            <Col style={{textAlign: 'right'}}>
+              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/simon.jpeg")} roundedCircle />
+            </Col>
+            <Col style={{textAlign: 'right'}}>
+              <p class="h4 bold">Engineering Team Contact:</p>
+              <p class="h5 bold">Simon Brooks</p>
+                <ul>
+                  <p class="h6 bold">Year: Senior</p>
+                  <p class="h6 bold">Major: Computer Science</p>
+                  <p class="h6 bold">Email: scbrooks2@wisc.edu</p>
+                </ul> 
+            </Col>
+          </Row>
+          <hr></hr>
+            <Image className="m-auto" fluid src={require("../../static/images/engineeringTeam.JPG")}/> 
+            <p className="lead my-1"> The Helios Tech Team is focused on Computer Science and coding. 
+                                      For the Fall 2020 semester we redesigned the Helios website to 
+                                      run on React.js and bootstrap.  </p>
           </div>
 	      </Tab>
-
+        <Tab eventKey="Energy" title="Energy" style={{backgroundColor: 'white'}}>
+          <div class="text-center">
+            <h1 class="display-4 font-italic">Energy Team</h1>
+          <Row>
+            <Col>
+              <h4 class="h4 bold">Meetings</h4>
+              <h6 class="h5 bold">Tuesdays: 6-7PM</h6>
+              <br/>
+              <AddToCalendar event={event}></AddToCalendar>
+            </Col>
+            <Col style={{textAlign: 'right'}}>
+              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jessie.jpeg")} roundedCircle />
+            </Col>
+            <Col style={{textAlign: 'right'}}>
+              <p class="h4 bold">Energy Team Contact:</p>
+              <p class="h5 bold">Jessie Steckling</p>
+                <ul>
+                  <p class="h6 bold">Year: Senior</p>
+                  <p class="h6 bold">Major: Computer Science</p>
+                  <p class="h6 bold">Email: jsteckling@wisc.edu</p>
+                </ul> 
+            </Col>
+          </Row>
+          <hr></hr>
+            <Image className="m-auto" fluid src={require("../../static/images/techteam.jpg")}/> 
+            <p className="lead my-1"> The Helios Tech Team is focused on Computer Science and coding. 
+                                      For the Fall 2020 semester we redesigned the Helios website to 
+                                      run on React.js and bootstrap.  </p>
+          </div>
+	      </Tab>
+        <Tab eventKey="Business" title="Business" style={{backgroundColor: 'white'}}>
+          <div class="text-center">
+            <h1 class="display-4 font-italic">Business Team</h1>
+          <Row>
+            <Col>
+              <h4 class="h4 bold">Meetings</h4>
+              <h6 class="h5 bold">Tuesdays: 6-7PM</h6>
+              <br/>
+              <AddToCalendar event={event}></AddToCalendar>
+            </Col>
+            <Col style={{textAlign: 'right'}}>
+              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ryan.jpeg")} roundedCircle />
+            </Col>
+            <Col style={{textAlign: 'right'}}>
+              <p class="h4 bold">Business Team Contact:</p>
+              <p class="h5 bold">Ryan Wenzel</p>
+                <ul>
+                  <p class="h6 bold">Year: Senior</p>
+                  <p class="h6 bold">Major: Computer Science</p>
+                  <p class="h6 bold">Email: rtwenzel@wisc.edu</p>
+                </ul> 
+            </Col>
+          </Row>
+          <hr></hr>
+            <Image className="m-auto" fluid src={require("../../static/images/techteam.jpg")}/> 
+            <p className="lead my-1"> The Helios Tech Team is focused on Computer Science and coding. 
+                                      For the Fall 2020 semester we redesigned the Helios website to 
+                                      run on React.js and bootstrap.  </p>
+          </div>
+	      </Tab>
 	 </Tabs>
     </Container>
   </Layout>
