@@ -43,8 +43,8 @@ export default function Member() {
           <hr></hr>
           <Row>
             <Col>
-              <h4 class="display-4 font-italic ">Meetings</h4>
-              <h6 class="display-5 font-italic">Tuesdays: 6-7PM</h6>
+              <h4 class="h4 bold">Meetings</h4>
+              <h6 class="h5 bold">Tuesdays: 6-7PM</h6>
               <br/>
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
@@ -109,7 +109,11 @@ export default function Member() {
           <div class="text-center">
             <h1 class="display-4 font-italic">Engineering Team</h1>
             <Image className="m-auto" fluid src={require("../../static/images/techteam.jpg")}/> 
-            <p className="lead my-1"> The Helios Engineering Team</p>
+            <p className="lead my-1"> 
+              The engineering team within Helios works on projects with the university that aim to increase 
+              the use of renewable energy (primarily solar) on campus. We believe the projects we engage in 
+              help move us towards a clean energy economy and improve the campus experience for all.
+            </p>
           </div>
           <div>
             <p class="h4">Meetings</p>
