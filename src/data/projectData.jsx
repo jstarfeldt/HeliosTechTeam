@@ -5,7 +5,8 @@ const solarData = [
     id: 0,
     title: "This is Project :) (smile)",
     date: new Moment("2019-10-31"),
-    imgUrl: "sun.jpg",
+    team: '',
+    imgUrl: "sun",
     summary:
       "This is a test summary for the Project.",
     body:
@@ -32,7 +33,8 @@ const solarData = [
     id: 1,
     title: "title2",
     date: new Moment("2019-10-31"),
-    imgUrl: "ArbProj.png",
+    team: '',
+    imgUrl: "",
     summary:
       "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr",
     body:
@@ -43,7 +45,8 @@ const solarData = [
     id: 2,
     title: "title3",
     date: new Moment("2019-10-31"),
-    imgUrl: "paella.jpg",
+    team: '',
+    imgUrl: "",
     summary:
       "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr",
     body:
@@ -52,19 +55,21 @@ const solarData = [
 
   {
     id: 3,
-    title: "Pooper",
+    title: "title4",
     date: new Moment("2019-10-31"),
-    imgUrl: "SolarPanels.jpg",
+    team: '',
+    imgUrl: "",
     summary:
-      "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr rejiwhjiwef wf  wef wedbwedkwed ghwdhjwejhdw we dhjwdjwg hjdghejwdghjweghjdwed wdwegjdhwghd uygwjehdu ygjwhedg yjhvwdgyjhvwdg yjhdwgyjhvufy hgvnfhvgnfthgv",
+      "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr",
     body:
       "body1 sdlgvj esb gjmve  bfhd frbnob desklbg vdrlbd fkmbd fkmdbfk mbcdfljklmnjmnklmklddrl"
   },
 
   {
     id: 4,
-    title: "poopest",
+    title: "title5",
     date: new Moment("2019-10-31"),
+    team: '',
     imgUrl: "",
     summary:
       "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr",
@@ -74,13 +79,35 @@ const solarData = [
 
   {
     id: 5,
-    title: "enpoop",
+    title: "title6",
     date: new Moment("2019-10-31"),
-    imgUrl: "SolarPanels7.png",
+    team: '',
+    imgUrl: "",
     summary:
       "drbghdrb dfrtbhdrsb  dfgvdersf dersgvesd df grsdgb gergr egr esdrgddf gdercv gdedr",
     body:
       "body1 sdlgvj esb gjmve  bfhd frbnob desklbg vdrlbd fkmbd fkmdbfk mbcdfljklmnjmnklmklddrl"
+  },
+  {
+    id: 6,
+    title: "Helios Website",
+    date: new Moment("2020-1-1"),
+    team: 'Technology',
+    imgUrl: "React",
+    summary:
+      "A React.js website created over the course of two years involving programmers and non programmers of all skill levels.",
+    body:
+      `
+      Throughout the course of the last two years we have built and continue to build a website so that we can show off all of the projects that we have completed. This way we can continue to recruit new members by showing them all the previous projects that we have completed in a efficient way.
+
+      To create this project we decided to use React.js which is a commonly used and fairly new front-end framework. Using React allowed us all to get familiar with component based architecture which after working with for awhile we have seen to be a great tool.
+
+      To execute this project we split each component or page into group sized chunks and reported our progress weekly. Each group was given sizes of 2 to 3 people making sure to balance the experience level amongst groups to make sure that coders of all levels could work on this project.
+
+      Each weekly meeting consisted of a good amount of small talk and then a overview of what we did this week and what we were hoping to do next, an idea that we took from the Scrum style stand-up. Beyond this group wide weekly meeting it was the teams responsibility to meet together and finish there assigned tasks.
+
+      As this is a continuous project we are always happy to hear new ideas that you might have about this project! If you are interested in helping us show the power of renewables and also practice your coding contact our Tech Lead listed on the main page!
+      `
   }
 ];
 

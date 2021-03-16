@@ -1,27 +1,18 @@
 import React, { useState } from "react";
-import Card from "../../Component/Card";
+import Card from "./ProjectCard";
 import data from "../../data/projectData";
-import "./project-list.scss";
-import { SettingsOverscanTwoTone } from "@material-ui/icons";
-import Layout from "../../Layout";
-import Container from 'react-bootstrap/Container'
-import Carousel from 'react-bootstrap/Carousel'
-import Image from 'react-bootstrap/Image'
-import Jumbotron from 'react-bootstrap/Jumbotron'
-import Row from 'react-bootstrap/Row'
-import Select from 'react-select';
-import Col from 'react-bootstrap/Col'
-import TextField from '@material-ui/core/TextField';
-
-import Button from 'react-bootstrap/Button'
+import { TextField, Select, InputLabel, MenuItem, FormControl } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap"
+import "./project-list.scss";
+
 /**
  * Expects a state passed in  
  * @param {*} props 
  */
 const ProjectSearchBar = ({setSearchFunction}) => {
 
-  const [ inputStates, setInputStates ] = useState({});
+  const [ inputStates, setInputStates ] = useState({ "sort" : "DATE DESC" });
 
   const buildSearchFunction = ( newState ) => {
     
@@ -30,7 +21,7 @@ const ProjectSearchBar = ({setSearchFunction}) => {
     /// Build filter Function
     function search( data ){
 
-      /// Filter the data array
+      // Create the filter function
       let dataFilter = ( dataPiece ) => {
         let isValid = true;
 
@@ -42,12 +33,25 @@ const ProjectSearchBar = ({setSearchFunction}) => {
               newStates.title == "" || titleStandard.indexOf(inputStandard) != -1
             )
         }
+
+        if("team" in newStates){
+          
+          let input = newStates.team;
+          let data = dataPiece.team;
+
+          isValid = isValid && (
+              input == "" || data == input
+            )
+           
+        }
         
         return isValid;
       }
 
+      // Filter the data
       const filteredData = data.filter(dataFilter);
-
+      
+      // Create the sort function
       let dataSort = ( piece0, piece1 ) => {
 
         if( newStates.sort == "DATE ASC"){
@@ -58,17 +62,35 @@ const ProjectSearchBar = ({setSearchFunction}) => {
 
       }
 
-      let searchData = filteredData;
+      // If valid sort is requested
+      if( 'sort' in newStates && newStates['sort'] != "" ){
+        return filteredData.sort(dataSort);
 
-      if( 'sort' in newStates ){
-        searchData = filteredData.sort(dataSort);
+      // Else return the filtered data
+      } else {
+        return filteredData;
       }
       
-      return searchData
+      
     }
     /// Set filter function
     setSearchFunction(() => search);
     setInputStates( newStates )
+  }
+
+  const Spacer = () => {
+    return(<Col md={{xs:5}}></Col>);
+  }
+
+  const styles = {
+    'select' : {
+      'container' : {
+        marginLeft : 'auto'
+      },
+      'input' : {
+        minWidth: 80,
+      }
+    }
   }
 
   return (
@@ -82,22 +104,53 @@ const ProjectSearchBar = ({setSearchFunction}) => {
           <TextField
             id="title" 
             label="Title" 
-            variant="filled" 
             onChange={(input) => buildSearchFunction({ 'title' : input.target.value })}
           />
         </Col>
-        <Col md={{xs:5}}></Col>
         <Col
           md={{
             xs: 1,
           }}
         >
-          <Select
-            onChange={(input) => buildSearchFunction({ 'sort' : input.target.value })}
+          <FormControl>
+            <InputLabel id="team-filter-label">Team</InputLabel>
+            <Select
+              labelId='team-filter-label'
+              id="team-filter"
+              onChange={(input) => buildSearchFunction({ 'team' : input.target.value })}
+              style={styles.select.input}
+            >
+              <MenuItem value="">All</MenuItem>
+              <MenuItem selected value="Business">Business</MenuItem>
+              <MenuItem value="Engineering">Engineering</MenuItem>
+              <MenuItem value="General">General</MenuItem>
+              <MenuItem value="Technology">Technology</MenuItem>
+            </Select>
+          </FormControl>
+        </Col>
+        <Spacer/>
+        <Col
+          md={{
+            xs: 1,
+          }}
+          style={{display : 'flex'}}
+        >
+          <FormControl
+            style={styles.select.container}
           >
-            <option value="DATE ASC">Date ASC</option>
-            <option value="DATE DESC">Date DESC</option>
-          </Select>
+            <InputLabel id="project-sort-label">Sort By
+            </InputLabel>
+            <Select
+              labelId='project-sort-label'
+              id="project-sort"
+              onChange={(input) => buildSearchFunction({ 'sort' : input.target.value })}
+              style={styles.select.input}
+            >
+              <MenuItem value="">None</MenuItem>
+              <MenuItem value="DATE ASC">Date ASC</MenuItem>
+              <MenuItem selected value="DATE DESC">Date DESC</MenuItem>
+            </Select>
+          </FormControl>
         </Col>
       </Row>
     </Container>
@@ -105,10 +158,17 @@ const ProjectSearchBar = ({setSearchFunction}) => {
 }
 
 const ProjectList = () => {
-return (
+  let history = useHistory();
+
+  const [searchFunction, setSearchFunction] = useState(() => (data) => data);
+
+  return (
     <div className="item_list">
-      {data.map(project => (
-          <a href={`/projects/${project.id}`} className="itemLink" ><Card project={project}/></a>
+      <ProjectSearchBar setSearchFunction={setSearchFunction}/>
+      {searchFunction( data ).map(project => (
+        <a className="itemLink" onClick={() => history.push(`/projects/${project.id}`)}>
+          <Card project={project} />
+        </a>
       ))}
     </div>
   );

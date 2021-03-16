@@ -2,15 +2,19 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 .item {
   width: 34rem;
+  height: 256px;
   margin-top: 15px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out, box-shadow 0s;
 }
 
 .item:hover {
-	transform: translateY(-0.5rem) scale(1.02);
-	box-shadow: 0 0.5em 3rem -1rem rgba(0,0,0,0.5);
+	transform: translateY(-0.1rem) scale(1.025);
+	box-shadow: 0 0.5em 3rem -1rem rgba(255, 0, 0, 0.5);
 }
 .itemLink {
   color: black;
@@ -19,16 +23,9 @@
   text-decoration: none;
 }
 
-img {
+.cardImg {
   max-width: 256px;
-  max-height: 256px;
-  float: left;
-  margin: 15px;
-}
-
-.topCard {
-  padding: 16px;
-  align-items: center;
+  max-height: 200px;
 }
 
 .cardText {
@@ -38,22 +35,25 @@ img {
   text-align: center;
 }
 
-.topCardGradient {
-  color: whitesmoke;
+.topCard {
   padding: 16px;
   align-items: center;
+}
+.topCardGradient {
+  color: rgba(245, 245, 245, 0.986);
   // Repurposed from the AI Club website
-background: linear-gradient(67deg, #9a0400, #F71735, #FF9F1C,#256630, #296d7c, #4b1331, #2c286b, #1d5c53, #43134b,#9a0400,#931621);
-background-size: 1800% 1800%;
+// background: linear-gradient(67deg, #9a0400, #F71735, #FF9F1C,#256630, #296d7c, #4b1331, #2c286b, #1d5c53, #43134b,#9a0400,#931621);
+background: linear-gradient(69deg, #FCB529, #D82A2A);
+background-size: 600% 100%;
 animation-name: rainbow;
 animation-timing-function: linear;
-animation-duration: 50s;
-animation-delay: 0ms;
+animation-duration: 10s;
+animation-delay: 1s;
 animation-iteration-count: infinite;
 animation-fill-mode: initial;
 @keyframes rainbow { 
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
+    0%{background-position:0% 0%}
+    50%{background-position:100% 0%}
+    100%{background-position:0% 0%}
 }
 }

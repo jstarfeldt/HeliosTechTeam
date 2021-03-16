@@ -1,40 +1,26 @@
-import React, { Component } from "react";
-import Typography from "@material-ui/core/Typography";
-import Container from "@material-ui/core/Container";
-import Link from "@material-ui/core/Link";
-import Image from 'react-bootstrap/Image'
-import { Navbar, Nav, NavItem, NavDropdown, Form, FormControl, Button} from 'react-bootstrap';
-import { makeStyles } from "@material-ui/core/styles";
+import React from "react";
+import { Navbar, Nav } from 'react-bootstrap';
 import { useHistory } from "react-router-dom";
 import "./Footer.scss";
-
-
-const useStyles = makeStyles(theme => ({
-  footer: {
-    backgroundColor: theme.palette.background.paper,
-    marginTop: theme.spacing(8),
-    padding: theme.spacing(6, 0)
-  }
-}));
 
 export default function Footer() {
   let history = useHistory();
 
-  const classes = useStyles();
-
   return (
-    <footer className={classes.footer}>
-      <Image 
-          className="d-block mx-auto"
-          src={require("../../src/static/images/heliosLogo.png")}
+    <footer>
+      <Navbar.Brand href="#top" className="footer-brand" onClick={() => history.push("../#top")}>
+        <img
+          src={require("../../src/static/images/HeliosFull.png")}
           height="30"
-          alt=""/>
-          <Nav className="m-auto footer-nav">
-            <Nav.Link onClick={() => history.push("/about")}>About</Nav.Link>
-            <Nav.Link onClick={() => history.push("/project")}>Projects</Nav.Link>
-            <Nav.Link onClick={() => history.push("/Member")}>Member</Nav.Link>
-            <Nav.Link onClick={() => history.push("/Research")}>Research</Nav.Link>
-          </Nav>
+          alt="" />
+      </Navbar.Brand>
+      <Navbar className="footer-nav" bg="themed" expand="lg">
+        <Nav className="m-auto">
+          <Nav.Link href="/project#top" onClick={() => history.push("../project#top")}>Projects</Nav.Link>
+          <Nav.Link href="/Member#top" onClick={() => history.push("../Member#top")}>Member</Nav.Link>
+          <Nav.Link href="/Research#top" onClick={() => history.push("../Research#top")}>Research</Nav.Link>
+        </Nav>
+      </Navbar>
     </footer>
   );
 }
