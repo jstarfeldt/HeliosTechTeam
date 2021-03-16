@@ -147,9 +147,13 @@ export default function Member() {
           </Row>
           <hr></hr>
             <Image className="m-auto" fluid src={require("../../static/images/techteam.jpg")}/> 
-            <p className="lead my-1"> The Helios Tech Team is focused on Computer Science and coding. 
-                                      For the Fall 2020 semester we redesigned the Helios website to 
-                                      run on React.js and bootstrap.  </p>
+
+            <p className="lead my-1"> 
+            The engineering team within Helios works on projects with the university that aim 
+            to increase the use of renewable energy (primarily solar) on campus. We believe 
+            the projects we engage in help move us towards a clean energy economy and improve 
+            the campus experience for all.
+              </p>
           </div>
 	      </Tab>
 	 </Tabs>
