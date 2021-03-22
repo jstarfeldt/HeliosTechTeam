@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 import AddToCalendar from 'react-add-to-calendar'
-import { Col, Row, Button } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import 'font-awesome/css/font-awesome.min.css';
 
 //var AddToCalendarHOC = require('react-add-to-calendar-hoc');
@@ -88,9 +88,10 @@ export default function Member() {
           <hr></hr>
             <Image className="m-auto" fluid src={require("../../static/images/engineeringTeam.JPG")}/> 
             <p className="lead my-1"> The engineering team within Helios works on projects with the 
-            university that aim to increase the use of renewable energy (primarily solar) on campus. We 
-            believe the projects we engage in help move us towards a clean energy economy and improve the 
-            campus experience for all.</p>
+             university that aim to increase the use of renewable energy (primarily solar) on campus.
+             We believe the projects we engage in help move us towards a clean energy economy and 
+             improve the campus experience for all. 
+             </p>
           </div>
 	      </Tab>
         <Tab eventKey="Energy" title="Energy" style={{backgroundColor: 'white'}}>
@@ -118,12 +119,13 @@ export default function Member() {
           </Row>
           <hr></hr>
             <Image className="m-auto" fluid src={require("../../static/images/techteam.jpg")}/> 
-            <p className="lead my-1"> The energy team works to make tangible sustainable change at UW Madison. 
-            We identify opportunities for emissions reductions and have conducted projects like solar installations 
-            and efficient lighting. We get to work closely with UW administrators to determine goals, policy restrictions, 
-            and grant availability. We also work with engineering firms to determine costs and emissions. Any major and 
-            expensive level is welcome, and we would love you to join us and get experience in the sustainability, policy, 
-            and contract work! Check out our panels on top of Gordon’s from the Nick.</p>
+            <p className="lead my-1"> The energy team works to make tangible sustainable change at UW Madison.
+             We identify opportunities for emissions reductions and have conducted projects like solar installations 
+             and efficient lighting. We get to work closely with UW administrators to determine goals, policy restrictions,
+              and grant availability. We also work with engineering firms to determine costs and emissions. Any major
+              and expensive level is welcome, and we would love you to join us and get experience in the sustainability, 
+              policy, and contract work! 
+            Check out our panels on top of Gordon’s from the Nick.  </p>
           </div>
 	      </Tab>
         <Tab eventKey="Business" title="Business" style={{backgroundColor: 'white'}}>
