@@ -9,8 +9,6 @@ import AddToCalendar from 'react-add-to-calendar'
 import { Col, Row } from "react-bootstrap";
 import 'font-awesome/css/font-awesome.min.css';
 
-//var AddToCalendarHOC = require('react-add-to-calendar-hoc');
-
 
 export default function Member() {
  
