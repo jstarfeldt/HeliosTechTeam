@@ -12,18 +12,15 @@ const ProjectDetails = ({ match }) => {
   return (
     <Layout>
       <h1>{contents.title}</h1>
+      <hr></hr>
       <Grid container>
-        <Box>
-          <img src={require('../../static/images/' + contents.imgUrl + '.jpg')} />
-        </Box>
-        <Box>
-          <p>
-            {contents.summary}
-          </p>
-        </Box>
+        
+      <img className='projectImage' src={require('../../static/images/' + contents.imgUrl + '.jpg')} />
+        
+        
       </Grid>
       <Box>
-        <p>
+        <p className='projectSum'>
           {contents.body}
         </p>
       </Box>
