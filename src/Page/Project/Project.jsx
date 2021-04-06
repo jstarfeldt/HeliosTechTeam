@@ -1,11 +1,8 @@
-import React from "react";
-import ProjectList from "./ProjectList";
 import { makeStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
-import Typography from "@material-ui/core/Typography";
-import Layout from "../../Layout";
-import Button from 'react-bootstrap/Button';
+import React from "react";
 import Card from 'react-bootstrap/Card';
+import Layout from "../../Layout";
+import ProjectList from "./ProjectList";
 
 const useStyles = makeStyles(theme => ({
   root: {

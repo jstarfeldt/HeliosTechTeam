@@ -2,10 +2,6 @@
   display: flex;
   flex-direction: row;
 }
-.bg-themed  {
-
- //   background-color: #ff8732;
-}
 
 .homeBar{
   border-bottom: 1px solid lightgray;
@@ -17,8 +13,8 @@
   justify-content:center;
   background: #D82A2A;
   padding-bottom:0px;
-  // background: -webkit-linear-gradient(to right, #FCB529, #D82A2A);
 }
+
 .gradient {
   background: linear-gradient(to right, #FCB529, #D82A2A); 
 }
@@ -37,12 +33,6 @@
   background-color: red;
 }
 
-// .active{
-//   background-color: #FCB529;
-// }
-// .active:hover{
-//   background-color: #FCB529;
-// }
 .panel{
   display:block;
 }
