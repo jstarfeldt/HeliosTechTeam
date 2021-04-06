@@ -9,8 +9,6 @@ import AddToCalendar from 'react-add-to-calendar'
 import { Col, Row } from "react-bootstrap";
 import 'font-awesome/css/font-awesome.min.css';
 
-//var AddToCalendarHOC = require('react-add-to-calendar-hoc');
-
 
 export default function Member() {
  
@@ -118,7 +116,8 @@ export default function Member() {
             </Col>
           </Row>
           <hr></hr>
-            <Image className="m-auto" fluid src={require("../../static/images/energyTeam.png")}/> 
+            <Image className="m-auto" fluid src={require("../../static/images/EnergyTeam.JPG")}/> 
+
             <p className="lead my-1"> The energy team works to make tangible sustainable change at UW Madison.
              We identify opportunities for emissions reductions and have conducted projects like solar installations 
              and efficient lighting. We get to work closely with UW administrators to determine goals, policy restrictions,

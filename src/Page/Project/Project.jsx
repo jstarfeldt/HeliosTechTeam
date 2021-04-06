@@ -1,5 +1,5 @@
 import { makeStyles } from "@material-ui/core/styles";
-import React from "react";
+import Layout from "../../Layout";
 import Card from 'react-bootstrap/Card';
 import Layout from "../../Layout";
 import ProjectList from "./ProjectList";
