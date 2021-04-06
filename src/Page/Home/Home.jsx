@@ -1,11 +1,11 @@
 import React from "react";
+import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Row from 'react-bootstrap/Row';
+import { useHistory } from "react-router-dom";
 import Layout from "../../Layout";
 import "./home.scss";
-import Image from 'react-bootstrap/Image'
-import Jumbotron from 'react-bootstrap/Jumbotron'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import { useHistory } from "react-router-dom";
 
 export default function Home() {
   let history = useHistory();

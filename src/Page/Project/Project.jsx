@@ -1,8 +1,8 @@
-import React from "react";
-import ProjectList from "./ProjectList";
 import { makeStyles } from "@material-ui/core/styles";
 import Layout from "../../Layout";
 import Card from 'react-bootstrap/Card';
+import Layout from "../../Layout";
+import ProjectList from "./ProjectList";
 
 const useStyles = makeStyles(theme => ({
   root: {
