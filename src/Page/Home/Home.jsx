@@ -16,7 +16,7 @@ export default function Home() {
 
         <Jumbotron style={{marginRight: 'auto', marginTop: '100px'}}>
           <div className="col-md-6 px-0" style={{marginRight: 'auto', marginBottom: '450px'}} >
-            <h1 className="display-4 font-italic">Helios</h1>
+            <h1 className="display-4 font-italic homeTitle">Helios</h1>
             <p className="lead my-3">To work towards a more awesome future, Helios will work towards making the UW-Madison campus more renewable, one building at a time.
 To spread awareness for sustainability, and particularly renewable energy projects, throughout the campus, and the community of Madison.</p>
           </div>
@@ -89,7 +89,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
             <p class="lead">Come check out Helios virtually and learn what we are all about!</p>
           </div>
           <div class="col-md-5">
-          <a href="https://win.wisc.edu/event/6187642">
+          <a onClick={() => history.push("/project")}>
             <Image className="featurette-image mx-auto" src={require("../../static/images/OrgFair.jpeg")} fluid rounded/>
             </a>
           </div>

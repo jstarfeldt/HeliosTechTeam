@@ -6,7 +6,7 @@
 }
 .item {
   width: 34rem;
-  height: 256px;
+  height: 180px;
   margin-top: 15px;
   overflow: hidden;
   transition: transform 0.2s ease-in-out, box-shadow 0s;
@@ -24,12 +24,14 @@
 }
 
 .cardImg {
-  max-width: 256px;
-  max-height: 200px;
+  width: 256px;
+  height: 150px;
 }
 
 .cardText {
   padding: 16px;
+  text-align: center;
+
 }
 .cardTitle {
   text-align: center;

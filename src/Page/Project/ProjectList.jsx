@@ -107,27 +107,7 @@ const ProjectSearchBar = ({setSearchFunction}) => {
             onChange={(input) => buildSearchFunction({ 'title' : input.target.value })}
           />
         </Col>
-        <Col
-          md={{
-            xs: 1,
-          }}
-        >
-          <FormControl>
-            <InputLabel id="team-filter-label">Team</InputLabel>
-            <Select
-              labelId='team-filter-label'
-              id="team-filter"
-              onChange={(input) => buildSearchFunction({ 'team' : input.target.value })}
-              style={styles.select.input}
-            >
-              <MenuItem value="">All</MenuItem>
-              <MenuItem selected value="Business">Business</MenuItem>
-              <MenuItem value="Engineering">Engineering</MenuItem>
-              <MenuItem value="General">General</MenuItem>
-              <MenuItem value="Technology">Technology</MenuItem>
-            </Select>
-          </FormControl>
-        </Col>
+
         <Spacer/>
         <Col
           md={{
