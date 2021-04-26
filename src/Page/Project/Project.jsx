@@ -1,7 +1,7 @@
+import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Layout from "../../Layout";
 import Card from 'react-bootstrap/Card';
-import Layout from "../../Layout";
 import ProjectList from "./ProjectList";
 
 const useStyles = makeStyles(theme => ({
@@ -17,10 +17,10 @@ const Project = () => {
     <div>
       <Layout>
       <div className="container">
-        <Card className="topCard topCardGradient">
-          <h2>Helios Projects</h2>
-          <Card.Text>Helping our community with every watt</Card.Text>
-        </Card>
+      <div class="text-center">
+            <h1 class="display-4 font-italic">Helios Projects</h1>
+            <h3 class="font-italic">Sustaining our Community</h3>
+      </div>
         <ProjectList />
         </div>
       </Layout>
