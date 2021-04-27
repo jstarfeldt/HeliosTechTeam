@@ -84,7 +84,7 @@ export default function Member() {
             </Col>
           </Row>
           <hr></hr>
-            <Image className="m-auto" fluid src={require("../../static/images/engineeringTeam.jpg")}/> 
+            <Image className="m-auto" fluid src={require("../../static/images/engineeringTeam.jpg")}/>
             <p className="lead my-1"> The Engineering team within Helios works on projects with the 
              university that aim to increase the use of renewable energy (primarily solar) on campus.
              We believe the projects we engage in help move us towards a clean energy economy and 
