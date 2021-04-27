@@ -11,7 +11,7 @@ export default function Home() {
   let history = useHistory();
 
   return (
-    <Layout>
+    <Layout style={{background: 'white'}} >
       <div className="container">
 
         <Jumbotron style={{marginRight: 'auto', marginTop: '100px'}}>
@@ -48,7 +48,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
       <Col>
       <a href="https://www.linkedin.com/in/jessie-steckling-43274315b/">
         <Row>
-          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jessie.jpeg")} roundedCircle />
+          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jessie.jpg")} roundedCircle />
         </Row>
         <h5 style={{textAlign: 'center'}}>Jessie Steckling</h5>
         <h6 style={{textAlign: 'center'}}>Energy Team</h6>
@@ -59,7 +59,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
       <Col>
       <a href="https://www.linkedin.com/in/ryan-wenzel/">
         <Row>
-          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ryan.jpeg")} roundedCircle />
+          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ryan.jpg")} roundedCircle />
         </Row>
         <h5 style={{textAlign: 'center'}}>Ryan Wenzel</h5>
         <h6 style={{textAlign: 'center'}}>Business Team</h6>
@@ -70,7 +70,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
       <Col>
       <a href="https://www.linkedin.com/in/scbrooks2/">
         <Row>
-          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/simon.jpeg")} roundedCircle />
+          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/simon.jpg")} roundedCircle />
         </Row>
         <h5 style={{textAlign: 'center'}}>Simon Brooks</h5>
         <h6 style={{textAlign: 'center'}}>Engineering Team</h6>

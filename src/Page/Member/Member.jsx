@@ -71,7 +71,7 @@ export default function Member() {
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
             <Col style={{textAlign: 'right'}}>
-              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/simon.jpeg")} roundedCircle />
+              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/simon.jpg")} roundedCircle />
             </Col>
             <Col style={{textAlign: 'right'}}>
               <p class="h4 bold">Engineering Team Contact:</p>
@@ -103,7 +103,7 @@ export default function Member() {
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
             <Col style={{textAlign: 'right'}}>
-              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jessie.jpeg")} roundedCircle />
+              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jessie.jpg")} roundedCircle />
             </Col>
             <Col style={{textAlign: 'right'}}>
               <p class="h4 bold">Energy Team Contact:</p>
@@ -138,7 +138,7 @@ export default function Member() {
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
             <Col style={{textAlign: 'right'}}>
-              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ryan.jpeg")} roundedCircle />
+              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ryan.jpg")} roundedCircle />
             </Col>
             <Col style={{textAlign: 'right'}}>
               <p class="h4 bold">Business Team Contact:</p>
