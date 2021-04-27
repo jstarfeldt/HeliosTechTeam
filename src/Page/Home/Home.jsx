@@ -90,7 +90,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
           </div>
           <div class="col-md-5">
           <a onClick={() => history.push("/project")}>
-            <Image className="featurette-image mx-auto" src={require("../../static/images/OrgFair.jpeg")} fluid rounded/>
+            <Image className="featurette-image mx-auto" src={require("../../static/images/OrgFair.jpg")} fluid rounded/>
             </a>
           </div>
         </div>
