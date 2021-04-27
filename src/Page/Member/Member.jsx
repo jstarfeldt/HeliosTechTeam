@@ -41,7 +41,7 @@ export default function Member() {
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
             <Col style={{textAlign: 'right'}}>
-              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ChrisLinkedIn.jfif")} roundedCircle />
+              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ChrisLinkedIn.jpg")} roundedCircle />
             </Col>
             <Col style={{textAlign: 'right'}}>
               <p class="h4 bold">Tech Team Contact:</p>

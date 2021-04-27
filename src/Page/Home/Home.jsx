@@ -37,7 +37,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
       <Col>
       <a href="https://www.linkedin.com/in/christopher-gilbertson-aab32b196/">
           <Row>
-            <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ChrisLinkedIn.jfif")} roundedCircle />
+            <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ChrisLinkedIn.jpg")} roundedCircle />
           </Row>
         <h5 style={{textAlign: 'center'}}>Chris Gilbertson</h5>
         <h6 style={{textAlign: 'center'}}>Tech Team</h6>

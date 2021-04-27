@@ -7,7 +7,7 @@ import Footer from "./Footer/Footer";
 
 const Layout = props => {
   return (
-    <div>
+    <div style={{background: 'white'}}>
       <div>
         <Navbar />
         {props.children}
