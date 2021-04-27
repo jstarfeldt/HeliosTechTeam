@@ -84,8 +84,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .featurette-image {
-  height: 400px;
-  width: 400px;
   color: grey;
   background-color: gray;
 }
@@ -143,4 +141,7 @@ a:link, a:visited, a:hover, a:active {
   margin-left: -20px;
 
 
+}
+.homeTitle{
+  margin-top: 0;
 }
