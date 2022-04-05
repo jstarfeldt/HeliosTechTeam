@@ -95,7 +95,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
           </div>
         </div>
 
-        <hr class="featurette-divider"/>
+        <hr class="featurette-divider"/> 
 
         <div class="row featurette" onClick={() => history.push("/project")}>
           <div class="col-md-7 order-md-2">
