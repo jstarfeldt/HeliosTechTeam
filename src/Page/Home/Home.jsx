@@ -70,7 +70,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
       <Col>
       <a href="https://www.linkedin.com/in/scbrooks2/">
         <Row>
-          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/simon.jpg")} roundedCircle />
+          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/Simon - Profile Pic.jpg")} roundedCircle />
         </Row>
         <h5 style={{textAlign: 'center'}}>Simon Brooks</h5>
         <h6 style={{textAlign: 'center'}}>President</h6>
