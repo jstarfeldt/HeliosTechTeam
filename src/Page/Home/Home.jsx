@@ -73,7 +73,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
           <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/simon.jpg")} roundedCircle />
         </Row>
         <h5 style={{textAlign: 'center'}}>Simon Brooks</h5>
-        <h6 style={{textAlign: 'center'}}>Engineering Team</h6>
+        <h6 style={{textAlign: 'center'}}>President</h6>
         <h6 style={{textAlign: 'center'}}>Senior</h6>
         <h6 style={{textAlign: 'center'}}>scbrooks2@wisc.edu</h6>
       </a>
