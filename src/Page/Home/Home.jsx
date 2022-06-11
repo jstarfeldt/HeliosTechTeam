@@ -28,10 +28,10 @@ To spread awareness for sustainability, and particularly renewable energy projec
         <Row>
           <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/tyler.jpg")} roundedCircle />
         </Row>
-        <h5 style={{textAlign: 'center'}}>Tyler Graczyk</h5>
+        <h5 style={{textAlign: 'center'}}>Simon Brooks</h5>
         <h6 style={{textAlign: 'center'}}>President </h6>
         <h6 style={{textAlign: 'center'}}>Senior</h6>
-        <h6 style={{textAlign: 'center'}}>tgraczyk@wisc.edu</h6>
+        <h6 style={{textAlign: 'center'}}>scbrooks2@wisc.edu</h6>
       </a>
       </Col>
       <Col>
@@ -40,7 +40,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
             <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ChrisLinkedIn.jpg")} roundedCircle />
           </Row>
         <h5 style={{textAlign: 'center'}}>Chris Gilbertson</h5>
-        <h6 style={{textAlign: 'center'}}>Tech Team</h6>
+        <h6 style={{textAlign: 'center'}}>Engineering Team</h6>
         <h6 style={{textAlign: 'center'}}>Senior</h6>
         <h6 style={{textAlign: 'center'}}>ctgilbertson@wisc.edu</h6>
         </a>
@@ -57,25 +57,25 @@ To spread awareness for sustainability, and particularly renewable energy projec
       </a>
       </Col>
       <Col>
-      <a href="https://www.linkedin.com/in/ryan-wenzel/">
+      /*<a href="https://www.linkedin.com/in/ryan-wenzel/">*/
         <Row>
           <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ryan.jpg")} roundedCircle />
         </Row>
-        <h5 style={{textAlign: 'center'}}>Ryan Wenzel</h5>
+        <h5 style={{textAlign: 'center'}}>Elizabeth Fields</h5>
         <h6 style={{textAlign: 'center'}}>Business Team</h6>
-        <h6 style={{textAlign: 'center'}}>Senior</h6>
-        <h6 style={{textAlign: 'center'}}>rtwenzel@wisc.edu</h6>
+        <h6 style={{textAlign: 'center'}}>Sophomore</h6>
+        <h6 style={{textAlign: 'center'}}>@wisc.edu</h6>
       </a>
       </Col> 
       <Col>
-      <a href="https://www.linkedin.com/in/scbrooks2/">
+      /*<a href="https://www.linkedin.com/in/scbrooks2/">*/
         <Row>
           <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/Simon - Profile Pic.jpg")} roundedCircle />
         </Row>
-        <h5 style={{textAlign: 'center'}}>Simon Brooks</h5>
-        <h6 style={{textAlign: 'center'}}>President</h6>
-        <h6 style={{textAlign: 'center'}}>Senior</h6>
-        <h6 style={{textAlign: 'center'}}>scbrooks2@wisc.edu</h6>
+        <h5 style={{textAlign: 'center'}}>Ameya Baxi</h5>
+        <h6 style={{textAlign: 'center'}}>Outreach Team</h6>
+        <h6 style={{textAlign: 'center'}}>Sophomore</h6>
+        <h6 style={{textAlign: 'center'}}>abaxi@wisc.edu</h6>
       </a>
       </Col>
     </Row>
