@@ -66,7 +66,7 @@ export default function Member() {
           <Row>
             <Col>
               <h4 class="h4 bold">Meetings</h4>
-              <h6 class="h5 bold">Tuesdays: 6-7PM</h6>
+              <h6 class="h5 bold">check back soon!</h6>
               <br/>
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
@@ -75,11 +75,11 @@ export default function Member() {
             </Col>
             <Col style={{textAlign: 'right'}}>
               <p class="h4 bold">Engineering Team Contact:</p>
-              <p class="h5 bold">Simon Brooks</p>
+              <p class="h5 bold">Jack Audi</p>
                 <ul>
                   <p class="h6 bold">Year: Senior</p>
-                  <p class="h6 bold">Major: Computer Science</p>
-                  <p class="h6 bold">Email: scbrooks2@wisc.edu</p>
+                  <p class="h6 bold">Major: Chemical Engineering</p>
+                  <p class="h6 bold">Email: audi@wisc.edu</p>
                 </ul> 
             </Col>
           </Row>
@@ -98,7 +98,7 @@ export default function Member() {
           <Row>
             <Col>
               <h4 class="h4 bold">Meetings</h4>
-              <h6 class="h5 bold">Tuesdays: 6-7PM</h6>
+              <h6 class="h5 bold">check back soon!</h6>
               <br/>
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
@@ -107,11 +107,11 @@ export default function Member() {
             </Col>
             <Col style={{textAlign: 'right'}}>
               <p class="h4 bold">Energy Team Contact:</p>
-              <p class="h5 bold">Jessie Steckling</p>
+              <p class="h5 bold">Jon Starfeldt</p>
                 <ul>
-                  <p class="h6 bold">Year: Senior</p>
-                  <p class="h6 bold">Major: Computer Science</p>
-                  <p class="h6 bold">Email: jsteckling@wisc.edu</p>
+                  <p class="h6 bold">Year: Junior</p>
+                  <p class="h6 bold">Major: Data Science</p>
+                  <p class="h6 bold">Email: jstarfeldt@wisc.edu</p>
                 </ul> 
             </Col>
           </Row>
@@ -122,7 +122,7 @@ export default function Member() {
              We identify opportunities for emissions reductions and have conducted projects like solar installations 
              and efficient lighting. We get to work closely with UW administrators to determine goals, policy restrictions,
               and grant availability. We also work with engineering firms to determine costs and emissions. Any major
-              and expensive level is welcome, and we would love you to join us and get experience in the sustainability, 
+              and experience level is welcome, and we would love you to join us and get experience in the sustainability, 
               policy, and contract work! 
             Check out our panels on top of Gordon’s from the Nick.  </p>
           </div>
@@ -133,7 +133,7 @@ export default function Member() {
           <Row>
             <Col>
               <h4 class="h4 bold">Meetings</h4>
-              <h6 class="h5 bold">TBA</h6>
+              <h6 class="h5 bold">check back soon!</h6>
               <br/>
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
@@ -142,11 +142,11 @@ export default function Member() {
             </Col>
             <Col style={{textAlign: 'right'}}>
               <p class="h4 bold">Business Team Contact:</p>
-              <p class="h5 bold">Elizabeth Fields</p>
+              <p class="h5 bold"></p>
                 <ul>
-                  <p class="h6 bold">Year: Sophomore</p>
+                  <p class="h6 bold">Year: </p>
                   <p class="h6 bold">Major: </p>
-                  <p class="h6 bold">Email: @wisc.edu</p>
+                  <p class="h6 bold">Email: </p>
                 </ul> 
             </Col>
           </Row>
@@ -154,7 +154,7 @@ export default function Member() {
             /*<Image className="m-auto" fluid src={require("../../static/images/techteam.jpg")}/>*/
 
             <p className="lead my-1"> 
-            /*The business team...*/
+            /*The business team...*/ The business team runs Helios social media accounts and manages the club's finances.</p> 
               </p>
           </div>
 	      </Tab>
@@ -164,7 +164,7 @@ export default function Member() {
           <Row>
             <Col>
               <h4 class="h4 bold">Meetings</h4>
-              <h6 class="h5 bold">TBA</h6>
+              <h6 class="h5 bold">check back soon!</h6>
               <br/>
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
@@ -183,8 +183,7 @@ export default function Member() {
           </Row>
           <hr></hr>
             /*<Image className="m-auto" fluid src={require("../../static/images/engineeringTeam.jpg")}/>*/
-            <p className="lead my-1"> The Outreach Team shares with the community projects accomplished by Helios and solar and sustainability news
-	    and knowledge through the website, videos, articles, and events. </p>
+            <p className="lead my-1"> The Outreach Team works on media and events to educate the community about Helios and renewable energy.</p>
           </div>
 	      </Tab>
 	 </Tabs>
