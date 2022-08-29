@@ -24,9 +24,9 @@ To spread awareness for sustainability, and particularly renewable energy projec
 
     <Row>
       <Col>
-      <a href="https://www.linkedin.com/in/tylergraczyk/">
+      /*<a href="https://www.linkedin.com/in/tylergraczyk/">*/
         <Row>
-          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/tyler.jpg")} roundedCircle />
+          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/simonNew.jpg")} roundedCircle />
         </Row>
         <h5 style={{textAlign: 'center'}}>Simon Brooks</h5>
         <h6 style={{textAlign: 'center'}}>President </h6>
@@ -35,30 +35,30 @@ To spread awareness for sustainability, and particularly renewable energy projec
       </a>
       </Col>
       <Col>
-      <a href="https://www.linkedin.com/in/christopher-gilbertson-aab32b196/">
+      /*<a href="https://www.linkedin.com/in/christopher-gilbertson-aab32b196/">*/
           <Row>
-            <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ChrisLinkedIn.jpg")} roundedCircle />
+            <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jack.jpg")} roundedCircle />
           </Row>
-        <h5 style={{textAlign: 'center'}}>Chris Gilbertson</h5>
+        <h5 style={{textAlign: 'center'}}>Jack Audi</h5>
         <h6 style={{textAlign: 'center'}}>Engineering Team</h6>
         <h6 style={{textAlign: 'center'}}>Senior</h6>
-        <h6 style={{textAlign: 'center'}}>ctgilbertson@wisc.edu</h6>
+        <h6 style={{textAlign: 'center'}}>audi@wisc.edu</h6>
         </a>
       </Col>
       <Col>
-      <a href="https://www.linkedin.com/in/jessie-steckling-43274315b/">
+      <a href="https://www.linkedin.com/in/jonathan-starfeldt">
         <Row>
-          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jessie.jpg")} roundedCircle />
+          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jon.jpg")} roundedCircle />
         </Row>
-        <h5 style={{textAlign: 'center'}}>Jessie Steckling</h5>
+        <h5 style={{textAlign: 'center'}}>Jon Starfeldt</h5>
         <h6 style={{textAlign: 'center'}}>Energy Team</h6>
-        <h6 style={{textAlign: 'center'}}>Senior</h6>
-        <h6 style={{textAlign: 'center'}}>jsteckling@wisc.edu</h6>
+        <h6 style={{textAlign: 'center'}}>Junior</h6>
+        <h6 style={{textAlign: 'center'}}>jstarfeldt@wisc.edu</h6>
       </a>
       </Col>
-      <Col>
+      /*<Col>
       /*<a href="https://www.linkedin.com/in/ryan-wenzel/">*/
-        <Row>
+       /* <Row>
           <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ryan.jpg")} roundedCircle />
         </Row>
         <h5 style={{textAlign: 'center'}}>Elizabeth Fields</h5>
@@ -66,11 +66,11 @@ To spread awareness for sustainability, and particularly renewable energy projec
         <h6 style={{textAlign: 'center'}}>Sophomore</h6>
         <h6 style={{textAlign: 'center'}}>@wisc.edu</h6>
       </a>
-      </Col> 
+      </Col> */
       <Col>
       /*<a href="https://www.linkedin.com/in/scbrooks2/">*/
         <Row>
-          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/Simon - Profile Pic.jpg")} roundedCircle />
+          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ameya.jpg")} roundedCircle />
         </Row>
         <h5 style={{textAlign: 'center'}}>Ameya Baxi</h5>
         <h6 style={{textAlign: 'center'}}>Outreach Team</h6>
