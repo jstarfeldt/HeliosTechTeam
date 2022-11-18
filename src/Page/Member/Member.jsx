@@ -30,7 +30,7 @@ export default function Member() {
   <Layout>
     <Container className="MemberContainer">
 	    <Tabs defaultActiveKey="Engineering" id="uncontrolled-tab-example" className ="team-tabs">
-	      /*<Tab eventKey="Tech" title="Tech" style={{backgroundColor: 'white'}}>
+	  {/*<Tab eventKey="Tech" title="Tech" style={{backgroundColor: 'white'}}>
           <div class="text-center">
             <h1 class="display-4 font-italic">Technology Team</h1>
           <Row>
@@ -59,14 +59,14 @@ export default function Member() {
                                       For the Fall 2020 semester we redesigned the Helios website to 
                                       run on React.js and bootstrap.  </p>
           </div>
-	      </Tab>*/
+	      </Tab>*/}
         <Tab eventKey="Engineering" title="Engineering" style={{backgroundColor: 'white'}}>
           <div class="text-center">
             <h1 class="display-4 font-italic">Engineering Team</h1>
           <Row>
             <Col>
               <h4 class="h4 bold">Meetings</h4>
-              <h6 class="h5 bold">Tuesdays: 6-7PM</h6>
+              <h6 class="h5 bold">Mondays: 7-8PM</h6>
               <br/>
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
@@ -98,7 +98,7 @@ export default function Member() {
           <Row>
             <Col>
               <h4 class="h4 bold">Meetings</h4>
-              <h6 class="h5 bold">Tuesdays: 6-7PM</h6>
+              <h6 class="h5 bold">Alternate Tuesdays: 7:30-8:30PM</h6>
               <br/>
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
@@ -127,7 +127,7 @@ export default function Member() {
             In recent years, we have worked with the University to put solar panels on top of Gordon\'s dining hall. Check them out while you\'re working out at the Nick!  </p>
           </div>
 	      </Tab>
-      /*  <Tab eventKey="Business" title="Business" style={{backgroundColor: 'white'}}>
+						 {/*  <Tab eventKey="Business" title="Business" style={{backgroundColor: 'white'}}>
           <div class="text-center">
             <h1 class="display-4 font-italic">Business Team</h1>
           <Row>
@@ -157,14 +157,14 @@ export default function Member() {
             /*The business team...*/
         /*      </p>
           </div>
-	      </Tab> */
+	      </Tab> */}
         <Tab eventKey="Outreach" title="Outreach" style={{backgroundColor: 'white'}}>
           <div class="text-center">
             <h1 class="display-4 font-italic">Outreach Team</h1>
           <Row>
             <Col>
               <h4 class="h4 bold">Meetings</h4>
-              <h6 class="h5 bold">TBA</h6>
+              <h6 class="h5 bold">Wednesdays: 7-8PM</h6>
               <br/>
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
