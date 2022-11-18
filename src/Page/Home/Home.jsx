@@ -56,7 +56,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
         <h6 style={{textAlign: 'center'}}>jstarfeldt@wisc.edu</h6>
       </a>
       </Col>
-      /*<Col>
+{/*<Col>
       /*<a href="https://www.linkedin.com/in/ryan-wenzel/">*/
        /* <Row>
           <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ryan.jpg")} roundedCircle />
@@ -66,7 +66,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
         <h6 style={{textAlign: 'center'}}>Sophomore</h6>
         <h6 style={{textAlign: 'center'}}>@wisc.edu</h6>
       </a>
-      </Col> */
+      </Col> */}
       <Col>
       /*<a href="https://www.linkedin.com/in/scbrooks2/">*/
         <Row>
