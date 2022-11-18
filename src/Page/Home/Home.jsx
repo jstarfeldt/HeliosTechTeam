@@ -24,7 +24,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
 
     <Row>
       <Col>
-      /*<a href="https://www.linkedin.com/in/tylergraczyk/">*/
+      <a href="https://www.linkedin.com/in/scbrooks2/">
         <Row>
           <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/simonNew.jpg")} roundedCircle />
         </Row>
