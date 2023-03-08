@@ -30,7 +30,7 @@ The first step in our project was to go around and take pictures of all potentia
 
   {
     id: 2,
-    title: "Arboretium Solar Panels",
+    title: "Arboretum Solar Panels",
     date: new Moment("2019-10-31"),
     team: '',
     imgUrl: "ArbProj",
@@ -62,7 +62,7 @@ Over several years, Arboretum staff have pursued Green Office Certification thro
 
   {
     id: 3,
-    title: "Gordans Dining Hall Solar Panels",
+    title: "Gordons Dining Hall Solar Panels",
     date: new Moment("2019-10-31"),
     imgUrl: "GordonsProject",
     summary:
