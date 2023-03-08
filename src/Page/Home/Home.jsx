@@ -24,7 +24,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
 
     <Row>
       <Col>
-      /*<a href="https://www.linkedin.com/in/scbrooks2/">*/
+      <a href="https://www.linkedin.com/in/scbrooks2/">
         <Row>
           <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/simonNew.jpg")} roundedCircle />
         </Row>
@@ -35,7 +35,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
       </a>
       </Col>
       <Col>
-      /*<a href="https://www.linkedin.com/in/jack-audi-7a87201ba/">*/
+      <a href="https://www.linkedin.com/in/jack-audi-7a87201ba/">
           <Row>
             <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jack.jpg")} roundedCircle />
           </Row>
@@ -58,7 +58,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
       </Col>
 
       <Col>
-      /*<a href="https://www.linkedin.com/in/ameya-baxi/">*/
+      <a href="https://www.linkedin.com/in/ameya-baxi/">
         <Row>
           <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ameya.jpg")} roundedCircle />
         </Row>
