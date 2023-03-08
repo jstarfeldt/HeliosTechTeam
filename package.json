@@ -10,6 +10,7 @@
     "calendar-link": "^2.0.14",
     "font-awesome": "^4.7.0",
     "moment": "^2.29.0",
+    "node-sass": "^7.0.1",
     "plotly.js": "^1.56.0",
     "react": "^16.13.1",
     "react-add-to-calendar": "^0.1.5",
