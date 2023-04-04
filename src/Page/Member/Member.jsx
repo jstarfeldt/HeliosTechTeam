@@ -30,36 +30,7 @@ export default function Member() {
   <Layout>
     <Container className="MemberContainer">
 	    <Tabs defaultActiveKey="Engineering" id="uncontrolled-tab-example" className ="team-tabs">
-	      /*<Tab eventKey="Tech" title="Tech" style={{backgroundColor: 'white'}}>
-          <div class="text-center">
-            <h1 class="display-4 font-italic">Technology Team</h1>
-          <Row>
-            <Col>
-              <h4 class="h4 bold">Meetings</h4>
-              <h6 class="h5 bold">Tuesdays: 6-7PM</h6>
-              <br/>
-              <AddToCalendar event={event}></AddToCalendar>
-            </Col>
-            <Col style={{textAlign: 'right'}}>
-              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ChrisLinkedIn.jpg")} roundedCircle />
-            </Col>
-            <Col style={{textAlign: 'right'}}>
-              <p class="h4 bold">Tech Team Contact:</p>
-              <p class="h5 bold">Chris Gilbertson</p>
-                <ul>
-                  <p class="h6 bold">Year: Senior</p>
-                  <p class="h6 bold">Major: Computer Science</p>
-                  <p class="h6 bold">Email: ctgilbertson@wisc.edu</p>
-                </ul> 
-            </Col>
-          </Row>
-          <hr></hr>
-            <Image className="m-auto" fluid src={require("../../static/images/techteam.jpg")}/> 
-            <p className="lead my-1"> The Helios Tech Team is focused on Computer Science and coding. 
-                                      For the Fall 2020 semester we redesigned the Helios website to 
-                                      run on React.js and bootstrap.  </p>
-          </div>
-	      </Tab>*/
+
         <Tab eventKey="Engineering" title="Engineering" style={{backgroundColor: 'white'}}>
           <div class="text-center">
             <h1 class="display-4 font-italic">Engineering Team</h1>
@@ -127,37 +98,7 @@ export default function Member() {
             In recent years, we have worked with the University to put solar panels on top of Gordon\'s dining hall. Check them out while you\'re working out at the Nick!  </p>
           </div>
 	      </Tab>
-      /*  <Tab eventKey="Business" title="Business" style={{backgroundColor: 'white'}}>
-          <div class="text-center">
-            <h1 class="display-4 font-italic">Business Team</h1>
-          <Row>
-            <Col>
-              <h4 class="h4 bold">Meetings</h4>
-              <h6 class="h5 bold">TBA</h6>
-              <br/>
-              <AddToCalendar event={event}></AddToCalendar>
-            </Col>
-            <Col style={{textAlign: 'right'}}>
-              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ryan.jpg")} roundedCircle />
-            </Col>
-            <Col style={{textAlign: 'right'}}>
-              <p class="h4 bold">Business Team Contact:</p>
-              <p class="h5 bold">Elizabeth Fields</p>
-                <ul>
-                  <p class="h6 bold">Year: Sophomore</p>
-                  <p class="h6 bold">Major: </p>
-                  <p class="h6 bold">Email: @wisc.edu</p>
-                </ul> 
-            </Col>
-          </Row>
-          <hr></hr>
-            /*<Image className="m-auto" fluid src={require("../../static/images/techteam.jpg")}/>*/
 
-       /*     <p className="lead my-1"> */
-            /*The business team...*/
-        /*      </p>
-          </div>
-	      </Tab> */
         <Tab eventKey="Outreach" title="Outreach" style={{backgroundColor: 'white'}}>
           <div class="text-center">
             <h1 class="display-4 font-italic">Outreach Team</h1>
