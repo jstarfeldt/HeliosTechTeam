@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../Layout";
-import "./Member.scss";
+import "./Member.css";
 import Image from 'react-bootstrap/Image'
 import Container from 'react-bootstrap/Container'
 import Tabs from 'react-bootstrap/Tabs'
