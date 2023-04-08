@@ -5,7 +5,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Row from 'react-bootstrap/Row';
 import { useHistory } from "react-router-dom";
 import Layout from "../../Layout";
-import "./home.scss";
+import "./home.css";
 
 export default function Home() {
   let history = useHistory();

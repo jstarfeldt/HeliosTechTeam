@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav } from 'react-bootstrap';
 import { useHistory } from "react-router-dom";
-import "./Footer.scss";
+import "./Footer.css";
 
 export default function Footer() {
   let history = useHistory();
