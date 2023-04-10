@@ -123,7 +123,7 @@ export default function Member() {
             </Col>
           </Row>
           <hr></hr>
-            /*<Image className="m-auto" fluid src={require("../../static/images/engineeringTeam.jpg")}/>*/
+            <Image className="m-auto" fluid src={require("../../static/images/engineeringTeam.jpg")}/>
             <p className="lead my-1"> The Outreach team works to educate the community about renewable energy and Helios\'s projects. We make videos,
 		write blog posts, maintain Helios\'s website, and run Helios\'s social media. This semester we also plan to work on branding and social
 		media for Project Sunroof and creating informational posters about Helios\'s projects. </p>
