@@ -48,7 +48,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
       <Col>
       <a href="https://www.linkedin.com/in/jonathan-starfeldt">
         <Row>
-          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jon.jpg")} roundedCircle />
+          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jon_resized.jpg")} roundedCircle />
         </Row>
         <h5 style={{textAlign: 'center'}}>Jon Starfeldt</h5>
         <h6 style={{textAlign: 'center'}}>Energy Team</h6>
@@ -60,7 +60,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
       <Col>
       <a href="https://www.linkedin.com/in/ameya-baxi/">
         <Row>
-          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ameya.jpg")} roundedCircle />
+          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ameya_resized.jpg")} roundedCircle />
         </Row>
         <h5 style={{textAlign: 'center'}}>Ameya Baxi</h5>
         <h6 style={{textAlign: 'center'}}>Outreach Team</h6>
