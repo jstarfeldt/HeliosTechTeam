@@ -35,7 +35,7 @@ The first step in our project was to go around and take pictures of all potentia
     team: '',
     imgUrl: "ArbProj",
     summary:
-      "Installation of Solar Panels on the visitor center of the Arboretium",
+      "Installation of Solar Panels on the visitor center of the Arboretum",
     body:
     `
 As one of several initiatives to reduce its energy footprint and operate more sustainably, the University of Wisconsin–Madison Arboretum Visitor Center will get a major solar panel upgrade beginning this week. 
@@ -93,7 +93,7 @@ In the meantime, the new solar array on the top of Gordon Dining & Event Center 
     id: 4,
     title: "Residence Hall Lighting Retrofits",
     date: new Moment("2023-02-15"),
-    imgUrl: "GordonsProject",
+    imgUrl: "Four Lakes Visit",
     summary:
       "Installation of Solar Panels onto the Gordons Dining Hall",
     body:
