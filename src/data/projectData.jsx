@@ -93,7 +93,7 @@ In the meantime, the new solar array on the top of Gordon Dining & Event Center 
     id: 4,
     title: "Residence Hall Lighting Retrofits",
     date: new Moment("2023-02-15"),
-    imgUrl: "Four Lakes Visit",
+    imgUrl: "FourLakesVisit",
     summary:
       "Installation of Solar Panels onto the Gordons Dining Hall",
     body:
