@@ -66,7 +66,7 @@ Over several years, Arboretum staff have pursued Green Office Certification thro
     date: new Moment("2019-10-31"),
     imgUrl: "GordonsProject",
     summary:
-      "Installation of Solar Panels onto the Gordans Dining Hall",
+      "Installation of Solar Panels onto the Gordons Dining Hall",
     body:
     `
 As spring returns to campus, UW-Madison has another reason to look forward to sunny weather. Following a year of research, project development, partnership building, and coordination, the Gordon Dining & Event Center now features a solar array on its roof that is projected to produce 42,800 kWh of electricity a year, or the energy use of five typical Wisconsin homes.1 All electricity produced by the panels will directly power the building.
@@ -86,6 +86,21 @@ Helios saw the opportunity to showcase renewable electricity so that other stude
 Helios continues to pursue opportunities to engage and educate fellow students about renewable energy. For instance, they produced a video that explains the difference between fixed and variable energy costs for UW-Madison—a key piece of information to understand the rate structure that governs the university’s contract with Madison Gas and Electric. In addition, Helios is working with University Housing to upgrade dining and residence halls to energy-efficient LED lighting.
 
 In the meantime, the new solar array on the top of Gordon Dining & Event Center will continue its quiet and essential work: absorbing the sun’s rays and helping UW-Madison on its ongoing journey to a more sustainable campus.
+    `
+  },
+
+  {
+    id: 4,
+    title: "Residence Hall Lighting Retrofits",
+    date: new Moment("2023-02-15"),
+    imgUrl: "GordonsProject",
+    summary:
+      "Installation of Solar Panels onto the Gordons Dining Hall",
+    body:
+    `
+In the fall of 2022 and spring 2023, the Helios Energy Team worked with University Housing maintenance to replace old fluorescent lightbilbs with LEDs in Dejope and Waters residence halls.
+In Dejope, we provided funding for nearly 400 bulb replacements for the kitchen area of Four Lakes Dining Hall. In Waters, we provided funding for 120 bulb replacements in addition to motion
+sensor control in floor bathrooms.
     `
   },
 
