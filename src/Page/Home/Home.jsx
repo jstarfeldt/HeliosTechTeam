@@ -17,8 +17,8 @@ export default function Home() {
         <Jumbotron style={{marginRight: 'auto', marginTop: '100px'}}>
           <div className="col-md-6 px-0" style={{marginRight: 'auto', marginBottom: '450px'}} >
             <h1 className="display-4 font-italic homeTitle">Helios</h1>
-            <p className="lead my-3">To work towards a more awesome future, Helios will work towards making the UW-Madison campus more renewable, one building at a time.
-To spread awareness for sustainability, and particularly renewable energy projects, throughout the campus, and the community of Madison.</p>
+            <p className="lead my-3">Helios engages students in climate action by implementing sustainability and renewable energy projects
+              on campus to address the climate crisis and create a more livable future.</p>
           </div>
         </Jumbotron>
 
