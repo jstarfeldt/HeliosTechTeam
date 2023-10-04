@@ -164,7 +164,7 @@ export default function Member() {
           <Row>
             <Col>
               <h4 class="h4 bold">Meetings</h4>
-              <h6 class="h5 bold">Wednesdays: 7-8PM</h6>
+              <h6 class="h5 bold">Wednesdays: 7:30-8:30 PM</h6>
               <br/>
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
@@ -175,7 +175,7 @@ export default function Member() {
               <p class="h4 bold">Outreach Team Contact:</p>
               <p class="h5 bold">Ameya Baxi</p>
                 <ul>
-                  <p class="h6 bold">Year: Sophomore</p>
+                  <p class="h6 bold">Year: Junior</p>
                   <p class="h6 bold">Major: Environmental Sciences</p>
                   <p class="h6 bold">Email: abaxi@wisc.edu</p>
                 </ul> 
