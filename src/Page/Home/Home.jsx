@@ -5,7 +5,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Row from 'react-bootstrap/Row';
 import { useHistory } from "react-router-dom";
 import Layout from "../../Layout";
-import "./home.scss";
+import "./home.css";
 
 export default function Home() {
   let history = useHistory();
@@ -17,8 +17,8 @@ export default function Home() {
         <Jumbotron style={{marginRight: 'auto', marginTop: '100px'}}>
           <div className="col-md-6 px-0" style={{marginRight: 'auto', marginBottom: '450px'}} >
             <h1 className="display-4 font-italic homeTitle">Helios</h1>
-            <p className="lead my-3">To work towards a more awesome future, Helios will work towards making the UW-Madison campus more renewable, one building at a time.
-To spread awareness for sustainability, and particularly renewable energy projects, throughout the campus, and the community of Madison.</p>
+            <p className="lead my-3">Helios engages students in climate action by implementing sustainability and renewable energy projects
+              on campus to address the climate crisis and create a more livable future.</p>
           </div>
         </Jumbotron>
 
@@ -48,7 +48,7 @@ To spread awareness for sustainability, and particularly renewable energy projec
       <Col>
       <a href="https://www.linkedin.com/in/jonathan-starfeldt">
         <Row>
-          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jon.jpg")} roundedCircle />
+          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jon_resized.jpg")} roundedCircle />
         </Row>
         <h5 style={{textAlign: 'center'}}>Jon Starfeldt</h5>
         <h6 style={{textAlign: 'center'}}>Energy Team</h6>
@@ -56,21 +56,10 @@ To spread awareness for sustainability, and particularly renewable energy projec
         <h6 style={{textAlign: 'center'}}>jstarfeldt@wisc.edu</h6>
       </a>
       </Col>
-      {/*<Col>
-      /*<a href="https://www.linkedin.com/in/ryan-wenzel/">*/
-       /* <Row>
-          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ryan.jpg")} roundedCircle />
-        </Row>
-        <h5 style={{textAlign: 'center'}}>Elizabeth Fields</h5>
-        <h6 style={{textAlign: 'center'}}>Business Team</h6>
-        <h6 style={{textAlign: 'center'}}>Sophomore</h6>
-        <h6 style={{textAlign: 'center'}}>@wisc.edu</h6>
-      </a>
-      </Col> */}
       <Col>
       <a href="https://www.linkedin.com/in/ameya-baxi/">
         <Row>
-          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ameya.jpg")} roundedCircle />
+          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ameya_resized.jpg")} roundedCircle />
         </Row>
         <h5 style={{textAlign: 'center'}}>Ameya Baxi</h5>
         <h6 style={{textAlign: 'center'}}>Outreach Team</h6>

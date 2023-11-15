@@ -4,7 +4,7 @@ import data from "../../data/projectData";
 import { TextField, Select, InputLabel, MenuItem, FormControl } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap"
-import "./project-list.scss";
+import "./project-list.css";
 
 /**
  * Expects a state passed in  

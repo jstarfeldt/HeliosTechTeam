@@ -8,7 +8,7 @@ import Image from 'react-bootstrap/Image'
 
 
 
-import "./ProjectDetails.scss";
+import "./ProjectDetails.css";
 
 const ProjectDetails = ({ match }) => {
   const contents = data[match.params.id];
