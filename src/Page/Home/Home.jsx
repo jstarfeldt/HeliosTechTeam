@@ -24,48 +24,59 @@ export default function Home() {
 
     <Row>
       <Col>
-      <a href="https://www.linkedin.com/in/scbrooks2/">
-        <Row>
-          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/simonNew.jpg")} roundedCircle />
-        </Row>
-        <h5 style={{textAlign: 'center'}}>Simon Brooks</h5>
-        <h6 style={{textAlign: 'center'}}>President </h6>
-        <h6 style={{textAlign: 'center'}}>Senior</h6>
-        <h6 style={{textAlign: 'center'}}>scbrooks2@wisc.edu</h6>
-      </a>
-      </Col>
-      <Col>
-      <a href="https://www.linkedin.com/in/jack-audi-7a87201ba/">
-          <Row>
-            <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jack.jpg")} roundedCircle />
-          </Row>
-        <h5 style={{textAlign: 'center'}}>Jack Audi</h5>
-        <h6 style={{textAlign: 'center'}}>Engineering Team</h6>
-        <h6 style={{textAlign: 'center'}}>Senior</h6>
-        <h6 style={{textAlign: 'center'}}>audi@wisc.edu</h6>
-        </a>
-      </Col>
-      <Col>
       <a href="https://www.linkedin.com/in/jonathan-starfeldt">
         <Row>
           <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jon_resized.jpg")} roundedCircle />
         </Row>
         <h5 style={{textAlign: 'center'}}>Jon Starfeldt</h5>
-        <h6 style={{textAlign: 'center'}}>Energy Team</h6>
-        <h6 style={{textAlign: 'center'}}>Junior</h6>
+        <h6 style={{textAlign: 'center'}}>President</h6>
+        <h6 style={{textAlign: 'center'}}>Senior</h6>
         <h6 style={{textAlign: 'center'}}>jstarfeldt@wisc.edu</h6>
+      </a>
+      </Col>
+      <Col>
+      <a href="https://www.linkedin.com/in/lance-letellier-electrical-engineer/">
+        <Row>
+          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/lance.png")} roundedCircle />
+        </Row>
+        <h5 style={{textAlign: 'center'}}>Lance Letellier</h5>
+        <h6 style={{textAlign: 'center'}}>Engineering Team</h6>
+        <h6 style={{textAlign: 'center'}}>Senior</h6>
+        <h6 style={{textAlign: 'center'}}>lletellier@wisc.edu</h6>
+      </a>
+      </Col>
+      <Col>
+      <a href="https://www.linkedin.com/in/tarun-narayan-51b1ab1a8/">
+        <Row>
+          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/tarun.png")} roundedCircle />
+        </Row>
+        <h5 style={{textAlign: 'center'}}>Tarun Narayan</h5>
+        <h6 style={{textAlign: 'center'}}>Engineering Team</h6>
+        <h6 style={{textAlign: 'center'}}>Senior</h6>
+        <h6 style={{textAlign: 'center'}}>tnarayan2@wisc.edu</h6>
       </a>
       </Col>
       <Col>
       <a href="https://www.linkedin.com/in/ameya-baxi/">
         <Row>
-          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ameya_resized.jpg")} roundedCircle />
+          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ameya.png")} roundedCircle />
         </Row>
         <h5 style={{textAlign: 'center'}}>Ameya Baxi</h5>
         <h6 style={{textAlign: 'center'}}>Outreach Team</h6>
-        <h6 style={{textAlign: 'center'}}>Sophomore</h6>
+        <h6 style={{textAlign: 'center'}}>Junior</h6>
         <h6 style={{textAlign: 'center'}}>abaxi@wisc.edu</h6>
       </a>
+      </Col>
+      <Col>
+      {/* <a href="LINKEDIN"> */}
+        <Row>
+          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/elaina.png")} roundedCircle />
+        </Row>
+        <h5 style={{textAlign: 'center'}}>Elaina Bernat</h5>
+        <h6 style={{textAlign: 'center'}}>Energy Team</h6>
+        <h6 style={{textAlign: 'center'}}>Sophomore</h6>
+        <h6 style={{textAlign: 'center'}}>ebernat@wisc.edu</h6>
+      {/* </a> */}
       </Col>
     </Row>
 
