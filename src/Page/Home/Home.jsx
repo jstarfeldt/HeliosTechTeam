@@ -56,7 +56,6 @@ export default function Home() {
         <h6 style={{textAlign: 'center'}}>jstarfeldt@wisc.edu</h6>
       </a>
       </Col>
-
       <Col>
       <a href="https://www.linkedin.com/in/ameya-baxi/">
         <Row>
