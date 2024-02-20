@@ -95,7 +95,7 @@ In the meantime, the new solar array on the top of Gordon Dining & Event Center 
     date: new Moment("2023-02-15"),
     imgUrl: "FourLakesVisit_resized",
     summary:
-      "Installation of Solar Panels onto the Gordons Dining Hall",
+      "Upgrading old fluorescent light bulbs to LEDs",
     body:
     `
 In the fall of 2022 and spring 2023, the Helios Energy Team worked with University Housing maintenance to replace old fluorescent lightbilbs with LEDs in Dejope and Waters residence halls. In Dejope, we provided funding for nearly 400 bulb replacements for the kitchen area of Four Lakes Dining Hall. In Waters, we provided funding for 120 bulb replacements in addition to motion sensor control in floor bathrooms.
