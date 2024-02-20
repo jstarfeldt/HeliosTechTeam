@@ -54,7 +54,7 @@ export default function Member() {
             </Col>
           </Row>
           <hr></hr>
-            <Image className="m-auto" fluid src={require("../../static/images/engineeringTeam.jpg")}/>
+            <Image className="m-auto" fluid src={require("../../static/images/engineering_team_2023.jpg")}/>
             <p className="lead my-1"> The Engineering team within Helios works on projects with the 
              university that aim to increase the use of renewable energy (primarily solar) on campus.
              We believe the projects we engage in help move us towards a clean energy economy and 
@@ -86,7 +86,7 @@ export default function Member() {
             </Col>
           </Row>
           <hr></hr>
-            <Image className="m-auto" fluid src={require("../../static/images/EnergyTeam.jpg")}/> 
+            <Image className="m-auto" fluid src={require("../../static/images/FourLakesVisit_resized.jpg")}/> 
 
             <p className="lead my-1"> The energy team works to make tangible sustainable change at UW Madison.
              We identify opportunities for emissions reductions and have conducted projects like solar installations 
@@ -121,7 +121,7 @@ export default function Member() {
             </Col>
           </Row>
           <hr></hr>
-            <Image className="m-auto" fluid src={require("../../static/images/engineeringTeam.jpg")}/>
+            <Image className="m-auto" fluid src={require("../../static/images/emPOWERing_discussion_2023.jpg")}/>
             <p className="lead my-1"> The Outreach team works to educate the community about renewable energy and Helios\'s projects. We make videos,
 		write blog posts, maintain Helios\'s website, and run Helios\'s social media. This semester we also plan to work on branding and social
 		media for Project Sunroof and creating informational posters about Helios\'s projects. </p>
