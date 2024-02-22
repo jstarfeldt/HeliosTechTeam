@@ -41,8 +41,8 @@ export default function Member() {
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
             <Col style={{textAlign: 'right'}}>
-              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/lance.jpg")} roundedCircle />
-	      <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/tarun.jpg")} roundedCircle />
+              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/lance.png")} roundedCircle />
+	      <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/tarun.png")} roundedCircle />
             </Col>
             <Col style={{textAlign: 'right'}}>
               <p class="h4 bold">Engineering Team Contact:</p>
@@ -74,7 +74,7 @@ export default function Member() {
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
             <Col style={{textAlign: 'right'}}>
-              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/elaina.jpg")} roundedCircle />
+              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/elaina.png")} roundedCircle />
             </Col>
             <Col style={{textAlign: 'right'}}>
               <p class="h4 bold">Energy Team Contact:</p>
@@ -109,7 +109,7 @@ export default function Member() {
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
             <Col style={{textAlign: 'right'}}>
-              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ameya.jpg")} roundedCircle />
+              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ameya.png")} roundedCircle />
             </Col>
             <Col style={{textAlign: 'right'}}>
               <p class="h4 bold">Outreach Team Contact:</p>
