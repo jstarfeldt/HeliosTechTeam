@@ -41,15 +41,16 @@ export default function Member() {
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
             <Col style={{textAlign: 'right'}}>
-              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jack.jpg")} roundedCircle />
+              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/lance.jpg")} roundedCircle />
+	      <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/tarun.jpg")} roundedCircle />
             </Col>
             <Col style={{textAlign: 'right'}}>
               <p class="h4 bold">Engineering Team Contact:</p>
-              <p class="h5 bold">Jack Audi</p>
+              <p class="h5 bold">Lance Letellier and Tarun Narayan</p>
                 <ul>
-                  <p class="h6 bold">Year: Senior</p>
+                  <p class="h6 bold">Year: Seniors</p>
                   <p class="h6 bold">Major: Mechanical Engineering</p>
-                  <p class="h6 bold">Email: audi@wisc.edu</p>
+                  <p class="h6 bold">Email: lletellier@wisc.edu and tnarayan2@wisc.edu</p>
                 </ul> 
             </Col>
           </Row>
@@ -73,15 +74,15 @@ export default function Member() {
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
             <Col style={{textAlign: 'right'}}>
-              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jon.jpg")} roundedCircle />
+              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/elaina.jpg")} roundedCircle />
             </Col>
             <Col style={{textAlign: 'right'}}>
               <p class="h4 bold">Energy Team Contact:</p>
-              <p class="h5 bold">Jon Starfeldt</p>
+              <p class="h5 bold">Eliana Bernat</p>
                 <ul>
-                  <p class="h6 bold">Year: Junior</p>
-                  <p class="h6 bold">Major: Data Science and Atmospheric & Oceanic Sciences</p>
-                  <p class="h6 bold">Email: jstarfeldt@wisc.edu</p>
+                  <p class="h6 bold">Year: Sophomore</p>
+                  <p class="h6 bold">Major: Chemistry</p>
+                  <p class="h6 bold">Email: ebernat@wisc.edu</p>
                 </ul> 
             </Col>
           </Row>
