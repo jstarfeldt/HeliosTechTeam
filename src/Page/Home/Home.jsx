@@ -72,7 +72,7 @@ export default function Home() {
         <Row>
           <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/elaina.png")} roundedCircle />
         </Row>
-        <h5 style={{textAlign: 'center'}}>Elaina Bernat</h5>
+        <h5 style={{textAlign: 'center'}}>Eliana Bernat</h5>
         <h6 style={{textAlign: 'center'}}>Energy Team</h6>
         <h6 style={{textAlign: 'center'}}>Sophomore</h6>
         <h6 style={{textAlign: 'center'}}>ebernat@wisc.edu</h6>
