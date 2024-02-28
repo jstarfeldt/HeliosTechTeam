@@ -68,7 +68,7 @@ export default function Home() {
       </a>
       </Col>
       <Col>
-      {/* <a href="LINKEDIN"> */}
+      <a href="https://www.linkedin.com/in/eliana-bernat-393b97260/">
         <Row>
           <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/elaina.png")} roundedCircle />
         </Row>
