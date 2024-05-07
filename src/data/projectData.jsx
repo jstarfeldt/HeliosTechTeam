@@ -102,7 +102,32 @@ In the fall of 2022 and spring 2023, the Helios Energy Team worked with Universi
     `
   },
 
- 
+  {
+    id: 5,
+    title: "emPOWERING Youth for a Brighter Future",
+    date: new Moment("2023-04-22"),
+    imgUrl: "emPOWERING_discussion_2023",
+    summary:
+      "Earth Day event hosted at the Arboretum for High School and College Students",
+    body:
+    `
+On Earth Day in 2023, Helios hosted an event at the UW Arboretum to inspire youth in the Madison area to take climate action. The event consisted of tours of the Arborteum, networking opportunities, and discussion groups with other students.
+    `
+  },
+
+ {
+    id: 6,
+    title: "Gordon's Fume Hood Control Updates",
+    date: new Moment("2023-12-18"),
+    imgUrl: "Gordons_fume_controls",
+    summary:
+      "New Fume Hood Control Installation in Gordon's Dining Hall",
+    body:
+    `
+Fume Hood Controls help save energy by monitoring the amount of exhausted air from fume hoods. This will help Gordon's Dining Hall can save money on heating the building. This project was led by Helios Energy Team and funded through the Green Fund in Fall of 2023.
+    `
+  }
+  
 ];
 
 export default solarData;
