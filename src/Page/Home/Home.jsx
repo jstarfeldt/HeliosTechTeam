@@ -76,7 +76,7 @@ export default function Home() {
         <h6 style={{textAlign: 'center'}}>Energy Team</h6>
         <h6 style={{textAlign: 'center'}}>Sophomore</h6>
         <h6 style={{textAlign: 'center'}}>ebernat@wisc.edu</h6>
-      {/* </a> */}
+      {</a>}
       </Col>
     </Row>
 
