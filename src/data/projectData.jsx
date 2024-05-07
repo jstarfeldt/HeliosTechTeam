@@ -104,9 +104,9 @@ In the fall of 2022 and spring 2023, the Helios Energy Team worked with Universi
 
   {
     id: 5,
-    title: "emPOWERING Youth for a Brighter Future",
+    title: "emPOWERing Youth for a Brighter Future",
     date: new Moment("2023-04-22"),
-    imgUrl: "emPOWERING_discussion_2023",
+    imgUrl: "emPOWERing_discussion_2023",
     summary:
       "Earth Day event hosted at the Arboretum for High School and College Students",
     body:
