@@ -95,7 +95,7 @@ export default function Member() {
               and grant availability. We also work with engineering firms to determine costs and emissions. Any major
               and expensive level is welcome, and we would love you to join us and get experience in the sustainability, 
               policy, and contract work! 
-            In recent years, we have worked with the University to put solar panels on top of Gordon\'s dining hall. Check them out while you\'re working out at the Nick!  </p>
+            In recent years, we have worked with the University to put solar panels on top of Gordon's dining hall. Check them out while you're working out at the Nick!  </p>
           </div>
 	      </Tab>
         <Tab eventKey="Outreach" title="Outreach" style={{backgroundColor: 'white'}}>
@@ -123,9 +123,9 @@ export default function Member() {
           </Row>
           <hr></hr>
             <Image className="m-auto" fluid src={require("../../static/images/emPOWERing_discussion_2023.jpg")}/>
-            <p className="lead my-1"> The Outreach team works to educate the community about renewable energy and Helios\'s projects. We make videos,
-		write blog posts, maintain Helios\'s website, and run Helios\'s social media. This semester we also plan to work on branding and social
-		media for Project Sunroof and creating informational posters about Helios\'s projects. </p>
+            <p className="lead my-1"> The Outreach team works to educate the community about renewable energy and Helios's projects. We make videos,
+		write blog posts, maintain Helios's website, and run Helios's social media. This semester we also plan to work on branding and social
+		media for Project Sunroof and creating informational posters about Helios's projects. </p>
           </div>
 	      </Tab>
 	 </Tabs>
