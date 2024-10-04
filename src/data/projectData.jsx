@@ -95,14 +95,39 @@ In the meantime, the new solar array on the top of Gordon Dining & Event Center 
     date: new Moment("2023-02-15"),
     imgUrl: "FourLakesVisit_resized",
     summary:
-      "Installation of Solar Panels onto the Gordons Dining Hall",
+      "Upgrading old fluorescent light bulbs to LEDs",
     body:
     `
 In the fall of 2022 and spring 2023, the Helios Energy Team worked with University Housing maintenance to replace old fluorescent lightbilbs with LEDs in Dejope and Waters residence halls. In Dejope, we provided funding for nearly 400 bulb replacements for the kitchen area of Four Lakes Dining Hall. In Waters, we provided funding for 120 bulb replacements in addition to motion sensor control in floor bathrooms.
     `
   },
 
- 
+  {
+    id: 5,
+    title: "emPOWERing Youth for a Brighter Future",
+    date: new Moment("2023-04-22"),
+    imgUrl: "emPOWERing_discussion_2023",
+    summary:
+      "Earth Day event hosted at the Arboretum for High School and College Students",
+    body:
+    `
+On Earth Day in 2023, Helios hosted an event at the UW Arboretum to inspire youth in the Madison area to take climate action. The event consisted of tours of the Arborteum, networking opportunities, and discussion groups with other students.
+    `
+  },
+
+ {
+    id: 6,
+    title: "Gordon's Fume Hood Control Updates",
+    date: new Moment("2023-12-18"),
+    imgUrl: "Gordons_fume_controls",
+    summary:
+      "New Fume Hood Control Installation in Gordon's Dining Hall",
+    body:
+    `
+Fume Hood Controls help save energy by monitoring the amount of exhausted air from fume hoods. This will help Gordon's Dining Hall can save money on heating the building. This project was led by Helios Energy Team and funded through the Green Fund in Fall of 2023.
+    `
+  }
+  
 ];
 
 export default solarData;

@@ -41,20 +41,21 @@ export default function Member() {
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
             <Col style={{textAlign: 'right'}}>
-              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jack.jpg")} roundedCircle />
+              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/lance.png")} roundedCircle />
+	      <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/tarun.png")} roundedCircle />
             </Col>
             <Col style={{textAlign: 'right'}}>
               <p class="h4 bold">Engineering Team Contact:</p>
-              <p class="h5 bold">Jack Audi</p>
+              <p class="h5 bold">Lance Letellier and Tarun Narayan</p>
                 <ul>
-                  <p class="h6 bold">Year: Senior</p>
+                  <p class="h6 bold">Year: Seniors</p>
                   <p class="h6 bold">Major: Mechanical Engineering</p>
-                  <p class="h6 bold">Email: audi@wisc.edu</p>
+                  <p class="h6 bold">Email: lletellier@wisc.edu and tnarayan2@wisc.edu</p>
                 </ul> 
             </Col>
           </Row>
           <hr></hr>
-            <Image className="m-auto" fluid src={require("../../static/images/engineeringTeam.jpg")}/>
+            <Image className="m-auto" fluid src={require("../../static/images/engineering_team_2023.jpg")}/>
             <p className="lead my-1"> The Engineering team within Helios works on projects with the 
              university that aim to increase the use of renewable energy (primarily solar) on campus.
              We believe the projects we engage in help move us towards a clean energy economy and 
@@ -73,20 +74,20 @@ export default function Member() {
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
             <Col style={{textAlign: 'right'}}>
-              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jon.jpg")} roundedCircle />
+              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/elaina.png")} roundedCircle />
             </Col>
             <Col style={{textAlign: 'right'}}>
               <p class="h4 bold">Energy Team Contact:</p>
-              <p class="h5 bold">Jon Starfeldt</p>
+              <p class="h5 bold">Eliana Bernat</p>
                 <ul>
-                  <p class="h6 bold">Year: Junior</p>
-                  <p class="h6 bold">Major: Data Science and Atmospheric & Oceanic Sciences</p>
-                  <p class="h6 bold">Email: jstarfeldt@wisc.edu</p>
+                  <p class="h6 bold">Year: Sophomore</p>
+                  <p class="h6 bold">Major: Chemistry</p>
+                  <p class="h6 bold">Email: ebernat@wisc.edu</p>
                 </ul> 
             </Col>
           </Row>
           <hr></hr>
-            <Image className="m-auto" fluid src={require("../../static/images/EnergyTeam.jpg")}/> 
+            <Image className="m-auto" fluid src={require("../../static/images/FourLakesVisit_resized.jpg")}/> 
 
             <p className="lead my-1"> The energy team works to make tangible sustainable change at UW Madison.
              We identify opportunities for emissions reductions and have conducted projects like solar installations 
@@ -94,7 +95,7 @@ export default function Member() {
               and grant availability. We also work with engineering firms to determine costs and emissions. Any major
               and expensive level is welcome, and we would love you to join us and get experience in the sustainability, 
               policy, and contract work! 
-            In recent years, we have worked with the University to put solar panels on top of Gordon\'s dining hall. Check them out while you\'re working out at the Nick!  </p>
+            In recent years, we have worked with the University to put solar panels on top of Gordon's dining hall. Check them out while you're working out at the Nick!  </p>
           </div>
 	      </Tab>
         <Tab eventKey="Outreach" title="Outreach" style={{backgroundColor: 'white'}}>
@@ -108,7 +109,7 @@ export default function Member() {
               <AddToCalendar event={event}></AddToCalendar>
             </Col>
             <Col style={{textAlign: 'right'}}>
-              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ameya.jpg")} roundedCircle />
+              <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ameya.png")} roundedCircle />
             </Col>
             <Col style={{textAlign: 'right'}}>
               <p class="h4 bold">Outreach Team Contact:</p>
@@ -121,10 +122,10 @@ export default function Member() {
             </Col>
           </Row>
           <hr></hr>
-            <Image className="m-auto" fluid src={require("../../static/images/engineeringTeam.jpg")}/>
-            <p className="lead my-1"> The Outreach team works to educate the community about renewable energy and Helios\'s projects. We make videos,
-		write blog posts, maintain Helios\'s website, and run Helios\'s social media. This semester we also plan to work on branding and social
-		media for Project Sunroof and creating informational posters about Helios\'s projects. </p>
+            <Image className="m-auto" fluid src={require("../../static/images/emPOWERing_discussion_2023.jpg")}/>
+            <p className="lead my-1"> The Outreach team works to educate the community about renewable energy and Helios's projects. We make videos,
+		write blog posts, maintain Helios's website, and run Helios's social media. This semester we also plan to work on branding and social
+		media for Project Sunroof and creating informational posters about Helios's projects. </p>
           </div>
 	      </Tab>
 	 </Tabs>
