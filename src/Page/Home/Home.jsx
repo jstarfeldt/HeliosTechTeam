@@ -24,58 +24,47 @@ export default function Home() {
 
     <Row>
       <Col>
-      <a href="https://www.linkedin.com/in/jonathan-starfeldt">
-        <Row>
-          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/jon_resized.jpg")} roundedCircle />
-        </Row>
-        <h5 style={{textAlign: 'center'}}>Jon Starfeldt</h5>
-        <h6 style={{textAlign: 'center'}}>President</h6>
-        <h6 style={{textAlign: 'center'}}>Senior</h6>
-        <h6 style={{textAlign: 'center'}}>jstarfeldt@wisc.edu</h6>
-      </a>
-      </Col>
-      <Col>
       <a href="https://www.linkedin.com/in/lance-letellier-electrical-engineer/">
         <Row>
-          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/lance.png")} roundedCircle />
+          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/lance.jpg")} roundedCircle />
         </Row>
         <h5 style={{textAlign: 'center'}}>Lance Letellier</h5>
-        <h6 style={{textAlign: 'center'}}>Engineering Team</h6>
+        <h6 style={{textAlign: 'center'}}>President</h6>
         <h6 style={{textAlign: 'center'}}>Senior</h6>
         <h6 style={{textAlign: 'center'}}>lletellier@wisc.edu</h6>
       </a>
       </Col>
       <Col>
-      <a href="https://www.linkedin.com/in/tarun-narayan-51b1ab1a8/">
-        <Row>
-          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/tarun.png")} roundedCircle />
-        </Row>
-        <h5 style={{textAlign: 'center'}}>Tarun Narayan</h5>
-        <h6 style={{textAlign: 'center'}}>Engineering Team</h6>
-        <h6 style={{textAlign: 'center'}}>Senior</h6>
-        <h6 style={{textAlign: 'center'}}>tnarayan2@wisc.edu</h6>
-      </a>
-      </Col>
-      <Col>
-      <a href="https://www.linkedin.com/in/ameya-baxi/">
-        <Row>
-          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/ameya.png")} roundedCircle />
-        </Row>
-        <h5 style={{textAlign: 'center'}}>Ameya Baxi</h5>
-        <h6 style={{textAlign: 'center'}}>Outreach Team</h6>
-        <h6 style={{textAlign: 'center'}}>Junior</h6>
-        <h6 style={{textAlign: 'center'}}>abaxi@wisc.edu</h6>
-      </a>
-      </Col>
-      <Col>
       <a href="https://www.linkedin.com/in/eliana-bernat-393b97260/">
         <Row>
-          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/elaina.png")} roundedCircle />
+          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/eliana.png")} roundedCircle />
         </Row>
         <h5 style={{textAlign: 'center'}}>Eliana Bernat</h5>
         <h6 style={{textAlign: 'center'}}>Energy Team</h6>
         <h6 style={{textAlign: 'center'}}>Sophomore</h6>
         <h6 style={{textAlign: 'center'}}>ebernat@wisc.edu</h6>
+      </a>
+      </Col>
+      <Col>
+      <a href="">
+        <Row>
+          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/siri.png")} roundedCircle />
+        </Row>
+        <h5 style={{textAlign: 'center'}}>Siri Grund</h5>
+        <h6 style={{textAlign: 'center'}}>Energy Team</h6>
+        <h6 style={{textAlign: 'center'}}>Junior</h6>
+        <h6 style={{textAlign: 'center'}}>swgrund@wisc.edu</h6>
+      </a>
+      </Col>
+      <Col>
+      <a href="https://www.linkedin.com/in/thomas-martin-78a300181/">
+        <Row>
+          <Image className="d-block center" style={{height: '140px', width: '140px'}} src={require("../../static/images/thomas.jpg")} roundedCircle />
+        </Row>
+        <h5 style={{textAlign: 'center'}}>Thomas Martin</h5>
+        <h6 style={{textAlign: 'center'}}>Engineering Team</h6>
+        <h6 style={{textAlign: 'center'}}>Senior</h6>
+        <h6 style={{textAlign: 'center'}}>temartin6@wisc.edu</h6>
       </a>
       </Col>
     </Row>
